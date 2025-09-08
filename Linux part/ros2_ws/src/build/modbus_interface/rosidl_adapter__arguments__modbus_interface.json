@@ -1,0 +1,6 @@
+{
+  "package_name": "modbus_interface",
+  "non_idl_tuples": [
+    "/home/student/ros2_ws/src/modbus_interface:srv/SetCoil.srv"
+  ]
+}

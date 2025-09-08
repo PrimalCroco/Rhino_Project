@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/modbus_interface/modbus_interface.egg-info
+writing ../../build/modbus_interface/modbus_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/modbus_interface/modbus_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/modbus_interface/modbus_interface.egg-info/entry_points.txt
+writing requirements to ../../build/modbus_interface/modbus_interface.egg-info/requires.txt
+writing top-level names to ../../build/modbus_interface/modbus_interface.egg-info/top_level.txt
+writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/ros2_ws/build/modbus_interface/build
+creating /home/student/ros2_ws/build/modbus_interface/build/lib
+creating /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+copying modbus_interface/__init__.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+copying modbus_interface/modbus_node.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+running install
+running install_lib
+creating /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/__init__.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/modbus_node.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/modbus_node.py to modbus_node.cpython-310.pyc
+running install_data
+creating /home/student/ros2_ws/install/modbus_interface/share/ament_index
+creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index
+creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages
+copying resource/modbus_interface -> /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/ros2_ws/install/modbus_interface/share/modbus_interface
+running install_egg_info
+Copying ../../build/modbus_interface/modbus_interface.egg-info to /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing modbus_connect_test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+Installing modbus_node script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+Installing test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+writing list of installed files to '/home/student/ros2_ws/build/modbus_interface/install.log'

@@ -1,0 +1,21 @@
+[2.046s] Invoking command in '/home/student/ros2_ws/src/opcua_ros_client': PYTHONPATH=/home/student/ros2_ws/build/opcua_ros_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opcua_ros_client build --build-base /home/student/ros2_ws/build/opcua_ros_client/build install --record /home/student/ros2_ws/build/opcua_ros_client/install.log --single-version-externally-managed install_data
+[2.578s] running egg_info
+[2.581s] writing ../../build/opcua_ros_client/opcua_ros_client.egg-info/PKG-INFO
+[2.581s] writing dependency_links to ../../build/opcua_ros_client/opcua_ros_client.egg-info/dependency_links.txt
+[2.582s] writing entry points to ../../build/opcua_ros_client/opcua_ros_client.egg-info/entry_points.txt
+[2.582s] writing requirements to ../../build/opcua_ros_client/opcua_ros_client.egg-info/requires.txt
+[2.583s] writing top-level names to ../../build/opcua_ros_client/opcua_ros_client.egg-info/top_level.txt
+[2.583s] reading manifest file '../../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[2.583s] writing manifest file '../../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[2.583s] running build
+[2.583s] running build_py
+[2.583s] running install
+[2.585s] running install_lib
+[2.585s] running install_data
+[2.585s] running install_egg_info
+[2.588s] removing '/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client-0.0.0-py3.10.egg-info' (and everything under it)
+[2.588s] Copying ../../build/opcua_ros_client/opcua_ros_client.egg-info to /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client-0.0.0-py3.10.egg-info
+[2.589s] running install_scripts
+[2.623s] Installing opcua_client_node script to /home/student/ros2_ws/install/opcua_ros_client/lib/opcua_ros_client
+[2.623s] writing list of installed files to '/home/student/ros2_ws/build/opcua_ros_client/install.log'
+[2.673s] Invoked command in '/home/student/ros2_ws/src/opcua_ros_client' returned '0': PYTHONPATH=/home/student/ros2_ws/build/opcua_ros_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opcua_ros_client build --build-base /home/student/ros2_ws/build/opcua_ros_client/build install --record /home/student/ros2_ws/build/opcua_ros_client/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+goto_pose_ik = ur10_moveit_control.goto_pose_ik:main
+

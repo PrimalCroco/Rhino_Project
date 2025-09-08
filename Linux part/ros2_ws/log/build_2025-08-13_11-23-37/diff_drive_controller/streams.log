@@ -1,0 +1,101 @@
+[0.056s] Invoking command in '/home/student/ros2_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/diff_drive_controller
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.262s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.567s] -- Found ros2_control_cmake: 0.2.1 (/home/student/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.569s] -- Compiler warnings enabled for GNU
+[0.569s] -- Detected GCC Version: 11.4.0 (Major: 11, Minor: 4)
+[0.578s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.861s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.093s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.245s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.286s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.501s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.511s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.756s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.868s] -- Looking for pthread.h
+[2.042s] -- Looking for pthread.h - found
+[2.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.219s] -- Found Threads: TRUE  
+[2.770s] -- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.800s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.839s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[2.841s] -- Found tf2_msgs: 0.25.15 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.880s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.881s] -- Found controller_manager: 2.51.0 (/home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[2.917s] -- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.925s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.940s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.941s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.040s] -- Configuring done
+[3.052s] [31mCMake Error at CMakeLists.txt:39 (add_library):
+[3.052s]   Target "diff_drive_controller" links to target
+[3.052s]   "controller_interface::controller_interface" but the target was not found.
+[3.052s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.052s]   ALIAS target is missing?
+[3.052s] 
+[3.052s] [0m
+[3.053s] [31mCMake Error at CMakeLists.txt:39 (add_library):
+[3.053s]   Target "diff_drive_controller" links to target
+[3.053s]   "hardware_interface::hardware_interface" but the target was not found.
+[3.053s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.053s]   ALIAS target is missing?
+[3.053s] 
+[3.053s] [0m
+[3.053s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.053s]   Target "test_diff_drive_controller" links to target
+[3.053s]   "controller_interface::controller_interface" but the target was not found.
+[3.053s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.053s]   ALIAS target is missing?
+[3.054s] Call Stack (most recent call first):
+[3.054s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.054s]   CMakeLists.txt:71 (ament_add_gmock)
+[3.054s] 
+[3.054s] [0m
+[3.054s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.054s]   Target "test_diff_drive_controller" links to target
+[3.054s]   "hardware_interface::hardware_interface" but the target was not found.
+[3.054s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.054s]   ALIAS target is missing?
+[3.054s] Call Stack (most recent call first):
+[3.054s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.054s]   CMakeLists.txt:71 (ament_add_gmock)
+[3.055s] 
+[3.055s] [0m
+[3.055s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.055s]   Target "test_load_diff_drive_controller" links to target
+[3.055s]   "controller_manager::controller_manager" but the target was not found.
+[3.055s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.055s]   ALIAS target is missing?
+[3.055s] Call Stack (most recent call first):
+[3.055s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.055s]   CMakeLists.txt:79 (ament_add_gmock)
+[3.055s] 
+[3.055s] [0m
+[3.056s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.056s]   Target "test_load_diff_drive_controller" links to target
+[3.056s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[3.056s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[3.056s]   an ALIAS target is missing?
+[3.056s] Call Stack (most recent call first):
+[3.056s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.056s]   CMakeLists.txt:79 (ament_add_gmock)
+[3.056s] 
+[3.056s] [0m
+[3.080s] -- Generating done
+[3.083s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000738] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000756] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000771] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000784] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000798] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000811] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000823] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000836] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000849] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000862] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000874] (-) JobUnselected: {'identifier': 'gps_sensor_broadcaster'}
+[0.000887] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000899] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000912] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000924] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000937] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000949] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000962] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.000975] (-) JobUnselected: {'identifier': 'modbus_interface'}
+[0.000987] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.001000] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001012] (-) JobUnselected: {'identifier': 'opcua_ros_client'}
+[0.001025] (-) JobUnselected: {'identifier': 'parallel_gripper_controller'}
+[0.001037] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.001049] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.001062] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.001074] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.001086] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.001099] (-) JobUnselected: {'identifier': 'ros2_control_cmake'}
+[0.001111] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.001124] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.001141] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.001163] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.001177] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.001189] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001202] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001215] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001227] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001240] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001252] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001267] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.001282] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.007443] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.008730] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[0.008773] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/ur_description', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '4344'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/student:@/tmp/.ICE-unix/1520,unix/student:/tmp/.ICE-unix/1520'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79c60998_7541_42e8_83fe_d65117f9bf15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VPQRA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install/ur_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install/ur_description:/opt/ros/humble')]), 'shell': False}
+[0.044009] (ur_description) CommandEnded: {'returncode': 0}
+[0.044891] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[0.052127] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/build/ur_description'], 'cwd': '/home/student/ros2_ws/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '4344'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/student:@/tmp/.ICE-unix/1520,unix/student:/tmp/.ICE-unix/1520'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79c60998_7541_42e8_83fe_d65117f9bf15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VPQRA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install/ur_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/src/Universal_Robots_ROS2_Description/install/ur_description:/opt/ros/humble')]), 'shell': False}
+[0.059164] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.059473] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config\n'}
+[0.059644] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5\n'}
+[0.059792] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[0.059877] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[0.059936] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[0.059989] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[0.060040] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10e\n'}
+[0.060090] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[0.060245] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[0.060326] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[0.060384] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[0.060436] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur30\n'}
+[0.060488] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[0.060538] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[0.060589] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[0.060638] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[0.060688] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3e\n'}
+[0.060755] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[0.060860] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[0.060913] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[0.060964] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[0.061013] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[0.061062] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur20\n'}
+[0.061160] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[0.061267] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[0.061314] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[0.061359] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[0.061408] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5e\n'}
+[0.061456] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[0.061526] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[0.061584] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[0.061634] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[0.061682] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10\n'}
+[0.061731] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[0.061780] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[0.061828] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[0.061877] (ur_description) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[0.061959] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur16e\n'}
+[0.062009] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[0.062059] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[0.062109] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[0.062220] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[0.062282] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3\n'}
+[0.062327] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[0.062375] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[0.062423] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[0.062472] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[0.062538] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur12e\n'}
+[0.062593] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml\n'}
+[0.062642] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml\n'}
+[0.062691] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml\n'}
+[0.062739] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml\n'}
+[0.062787] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur7e\n'}
+[0.062836] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml\n'}
+[0.062884] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml\n'}
+[0.062931] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml\n'}
+[0.062980] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml\n'}
+[0.063028] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur15\n'}
+[0.063076] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml\n'}
+[0.063124] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml\n'}
+[0.063227] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml\n'}
+[0.063280] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml\n'}
+[0.063342] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/launch\n'}
+[0.063390] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[0.063468] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes\n'}
+[0.063519] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5\n'}
+[0.063567] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision\n'}
+[0.063615] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[0.063664] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[0.063846] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[0.063899] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[0.063948] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[0.064092] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[0.064160] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[0.064228] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual\n'}
+[0.064315] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[0.064365] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[0.064413] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[0.064462] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[0.064511] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[0.064559] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[0.064607] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[0.064655] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e\n'}
+[0.064703] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision\n'}
+[0.064751] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[0.064799] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[0.064847] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[0.064896] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[0.064943] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[0.064992] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[0.065040] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[0.065088] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual\n'}
+[0.065156] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[0.065391] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[0.065439] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[0.065487] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[0.065534] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[0.065600] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[0.065711] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[0.065761] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30\n'}
+[0.065809] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision\n'}
+[0.065857] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[0.065905] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[0.065953] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual\n'}
+[0.066038] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[0.066086] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[0.066154] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[0.066238] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[0.066288] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e\n'}
+[0.066337] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision\n'}
+[0.066384] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[0.066432] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[0.066586] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[0.066634] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[0.066682] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[0.066730] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[0.066778] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[0.066825] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual\n'}
+[0.066873] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[0.066921] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[0.066969] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[0.067016] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[0.067082] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[0.067130] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[0.067339] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[0.067387] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20\n'}
+[0.067435] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision\n'}
+[0.067483] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[0.067531] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[0.067579] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[0.067626] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[0.067674] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[0.067722] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[0.067844] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[0.067890] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual\n'}
+[0.067936] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[0.067984] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[0.068033] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[0.068081] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[0.068129] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[0.068294] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[0.068338] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[0.068382] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[0.068430] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[0.068477] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e\n'}
+[0.068525] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision\n'}
+[0.068572] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[0.068672] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[0.068720] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[0.068797] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[0.068847] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[0.068895] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[0.068942] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[0.068990] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual\n'}
+[0.069038] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[0.069086] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[0.069152] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[0.069251] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[0.069297] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[0.069345] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[0.069392] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[0.069440] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10\n'}
+[0.069487] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision\n'}
+[0.069534] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[0.069581] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[0.069628] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[0.069675] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[0.069766] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[0.069811] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[0.069855] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[0.069898] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual\n'}
+[0.069945] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[0.069993] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[0.070040] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[0.070088] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[0.070155] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[0.070252] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[0.070296] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[0.070340] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e\n'}
+[0.070383] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision\n'}
+[0.070426] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[0.070469] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[0.070513] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual\n'}
+[0.070556] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[0.070598] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[0.070641] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3\n'}
+[0.070692] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision\n'}
+[0.070736] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[0.070779] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[0.070822] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[0.070865] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[0.070908] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[0.070952] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[0.070995] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[0.071038] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual\n'}
+[0.071081] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[0.071128] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[0.071247] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[0.071392] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[0.071481] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[0.071526] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[0.071589] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[0.071638] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15\n'}
+[0.071686] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision\n'}
+[0.071733] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl\n'}
+[0.071781] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl\n'}
+[0.071828] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl\n'}
+[0.071876] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl\n'}
+[0.071923] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl\n'}
+[0.071971] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl\n'}
+[0.072018] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl\n'}
+[0.072065] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual\n'}
+[0.072112] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae\n'}
+[0.072286] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg\n'}
+[0.072405] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae\n'}
+[0.072454] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae\n'}
+[0.072503] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae\n'}
+[0.072552] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae\n'}
+[0.072601] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae\n'}
+[0.072649] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae\n'}
+[0.072698] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt\n'}
+[0.072788] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/rviz\n'}
+[0.072837] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[0.072886] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf\n'}
+[0.073305] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro\n'}
+[0.073397] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[0.073446] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/inc\n'}
+[0.073495] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro\n'}
+[0.073544] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro\n'}
+[0.073593] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[0.073643] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[0.073692] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[0.073741] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro\n'}
+[0.073790] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/test\n'}
+[0.073838] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[0.073887] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[0.073936] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[0.074020] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[0.074071] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[0.074121] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[0.074225] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/environment/path.sh\n'}
+[0.074332] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[0.074382] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/local_setup.bash\n'}
+[0.074430] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/local_setup.sh\n'}
+[0.074480] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[0.074528] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[0.074577] (ur_description) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/ur_description/share/ur_description/package.dsv\n'}
+[0.074649] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[0.074700] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[0.074749] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[0.074798] (ur_description) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/ur_description/share/ur_description/package.xml\n'}
+[0.074847] (ur_description) CommandEnded: {'returncode': 0}
+[0.087730] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[0.088085] (-) EventReactorShutdown: {}

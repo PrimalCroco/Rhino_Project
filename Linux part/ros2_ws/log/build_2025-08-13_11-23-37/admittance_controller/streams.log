@@ -1,0 +1,126 @@
+[0.062s] Invoking command in '/home/student/ros2_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/admittance_controller
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.255s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.528s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.541s] -- Found ros2_control_cmake: 0.2.1 (/home/student/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.541s] -- Compiler warnings enabled for GNU
+[0.541s] -- Detected GCC Version: 11.4.0 (Major: 11, Minor: 4)
+[0.541s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.836s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.091s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.099s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.203s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.220s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.244s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.616s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.760s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.773s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.952s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.001s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.070s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.098s] -- Looking for pthread.h
+[2.263s] -- Looking for pthread.h - found
+[2.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.443s] -- Found Threads: TRUE  
+[2.775s] -- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.807s] -- Found kinematics_interface: 0.4.0 (/opt/ros/humble/share/kinematics_interface/cmake)
+[2.814s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[2.827s] -- Found tf2_eigen: 0.25.15 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.929s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.951s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.953s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.953s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.965s] -- Found tf2_kdl: 0.25.15 (/opt/ros/humble/share/tf2_kdl/cmake)
+[2.979s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.980s] -- Found controller_manager: 2.51.0 (/home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.018s] -- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.024s] -- Found kinematics_interface_kdl: 0.4.0 (/opt/ros/humble/share/kinematics_interface_kdl/cmake)
+[3.051s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.064s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.064s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.147s] -- Configuring done
+[3.159s] [31mCMake Error at CMakeLists.txt:40 (add_library):
+[3.159s]   Target "admittance_controller" links to target
+[3.159s]   "controller_interface::controller_interface" but the target was not found.
+[3.159s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.159s]   ALIAS target is missing?
+[3.159s] 
+[3.159s] [0m
+[3.159s] [31mCMake Error at CMakeLists.txt:40 (add_library):
+[3.160s]   Target "admittance_controller" links to target
+[3.160s]   "hardware_interface::hardware_interface" but the target was not found.
+[3.160s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.160s]   ALIAS target is missing?
+[3.160s] 
+[3.160s] [0m
+[3.160s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.160s]   Target "test_load_admittance_controller" links to target
+[3.160s]   "controller_manager::controller_manager" but the target was not found.
+[3.160s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.160s]   ALIAS target is missing?
+[3.160s] Call Stack (most recent call first):
+[3.160s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.161s]   CMakeLists.txt:82 (ament_add_gmock)
+[3.161s] 
+[3.161s] [0m
+[3.161s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.161s]   Target "test_load_admittance_controller" links to target
+[3.161s]   "hardware_interface::hardware_interface" but the target was not found.
+[3.161s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.161s]   ALIAS target is missing?
+[3.161s] Call Stack (most recent call first):
+[3.161s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.161s]   CMakeLists.txt:82 (ament_add_gmock)
+[3.161s] 
+[3.161s] [0m
+[3.161s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[3.162s]   Target "test_load_admittance_controller" links to target
+[3.162s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[3.162s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[3.162s]   an ALIAS target is missing?
+[3.162s] Call Stack (most recent call first):
+[3.162s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[3.162s]   CMakeLists.txt:82 (ament_add_gmock)
+[3.162s] 
+[3.162s] [0m
+[3.162s] [31mCMake Error at /opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake:164 (add_executable):
+[3.162s]   Target "test_admittance_controller" links to target
+[3.162s]   "controller_interface::controller_interface" but the target was not found.
+[3.162s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.163s]   ALIAS target is missing?
+[3.163s] Call Stack (most recent call first):
+[3.163s]   CMakeLists.txt:90 (add_rostest_with_parameters_gmock)
+[3.163s] 
+[3.163s] [0m
+[3.163s] [31mCMake Error at /opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake:164 (add_executable):
+[3.163s]   Target "test_admittance_controller" links to target
+[3.163s]   "hardware_interface::hardware_interface" but the target was not found.
+[3.163s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[3.163s]   ALIAS target is missing?
+[3.163s] Call Stack (most recent call first):
+[3.163s]   CMakeLists.txt:90 (add_rostest_with_parameters_gmock)
+[3.163s] 
+[3.163s] [0m
+[3.164s] [31mCMake Error at /opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake:164 (add_executable):
+[3.164s]   Target "test_admittance_controller" links to target
+[3.164s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[3.164s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[3.164s]   an ALIAS target is missing?
+[3.164s] Call Stack (most recent call first):
+[3.164s]   CMakeLists.txt:90 (add_rostest_with_parameters_gmock)
+[3.164s] 
+[3.164s] [0m
+[3.176s] -- Generating done
+[3.178s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

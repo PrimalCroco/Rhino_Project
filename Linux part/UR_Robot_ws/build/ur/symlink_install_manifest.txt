@@ -1,0 +1,15 @@
+/home/student/UR_Robot_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/student/UR_Robot_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/student/UR_Robot_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/student/UR_Robot_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/student/UR_Robot_ws/install/ur/share/ur/environment/path.sh
+/home/student/UR_Robot_ws/install/ur/share/ur/environment/path.dsv
+/home/student/UR_Robot_ws/install/ur/share/ur/local_setup.bash
+/home/student/UR_Robot_ws/install/ur/share/ur/local_setup.sh
+/home/student/UR_Robot_ws/install/ur/share/ur/local_setup.zsh
+/home/student/UR_Robot_ws/install/ur/share/ur/local_setup.dsv
+/home/student/UR_Robot_ws/install/ur/share/ur/package.dsv
+/home/student/UR_Robot_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/student/UR_Robot_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/student/UR_Robot_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/student/UR_Robot_ws/install/ur/share/ur/package.xml

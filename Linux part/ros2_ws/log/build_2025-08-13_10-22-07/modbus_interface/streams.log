@@ -1,0 +1,39 @@
+[0.619s] Invoking command in '/home/student/ros2_ws/src/modbus_interface': PYTHONPATH=/home/student/ros2_ws/build/modbus_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modbus_interface build --build-base /home/student/ros2_ws/build/modbus_interface/build install --record /home/student/ros2_ws/build/modbus_interface/install.log --single-version-externally-managed install_data
+[0.847s] running egg_info
+[0.848s] creating ../../build/modbus_interface/modbus_interface.egg-info
+[0.848s] writing ../../build/modbus_interface/modbus_interface.egg-info/PKG-INFO
+[0.848s] writing dependency_links to ../../build/modbus_interface/modbus_interface.egg-info/dependency_links.txt
+[0.848s] writing entry points to ../../build/modbus_interface/modbus_interface.egg-info/entry_points.txt
+[0.849s] writing requirements to ../../build/modbus_interface/modbus_interface.egg-info/requires.txt
+[0.849s] writing top-level names to ../../build/modbus_interface/modbus_interface.egg-info/top_level.txt
+[0.849s] writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+[0.851s] reading manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+[0.852s] writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'
+[0.852s] running build
+[0.852s] running build_py
+[0.852s] creating /home/student/ros2_ws/build/modbus_interface/build
+[0.852s] creating /home/student/ros2_ws/build/modbus_interface/build/lib
+[0.852s] creating /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+[0.852s] copying modbus_interface/__init__.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+[0.853s] copying modbus_interface/modbus_node.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface
+[0.858s] running install
+[0.858s] running install_lib
+[0.859s] creating /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+[0.859s] copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/__init__.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+[0.859s] copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/modbus_node.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface
+[0.860s] byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/__init__.py to __init__.cpython-310.pyc
+[0.860s] byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/modbus_node.py to modbus_node.cpython-310.pyc
+[0.861s] running install_data
+[0.861s] creating /home/student/ros2_ws/install/modbus_interface/share/ament_index
+[0.861s] creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index
+[0.861s] creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages
+[0.861s] copying resource/modbus_interface -> /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages
+[0.861s] copying package.xml -> /home/student/ros2_ws/install/modbus_interface/share/modbus_interface
+[0.861s] running install_egg_info
+[0.863s] Copying ../../build/modbus_interface/modbus_interface.egg-info to /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface-0.0.0-py3.10.egg-info
+[0.864s] running install_scripts
+[0.882s] Installing modbus_connect_test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+[0.883s] Installing modbus_node script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+[0.883s] Installing test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface
+[0.883s] writing list of installed files to '/home/student/ros2_ws/build/modbus_interface/install.log'
+[0.902s] Invoked command in '/home/student/ros2_ws/src/modbus_interface' returned '0': PYTHONPATH=/home/student/ros2_ws/build/modbus_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modbus_interface build --build-base /home/student/ros2_ws/build/modbus_interface/build install --record /home/student/ros2_ws/build/modbus_interface/install.log --single-version-externally-managed install_data

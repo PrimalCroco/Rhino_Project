@@ -1,0 +1,45 @@
+[0.050s] Invoking command in '/home/student/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/ros2_control_test_assets
+[1.190s] -- The C compiler identification is GNU 11.4.0
+[1.190s] -- The CXX compiler identification is GNU 11.4.0
+[1.190s] -- Detecting C compiler ABI info
+[1.190s] -- Detecting C compiler ABI info - done
+[1.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.190s] -- Detecting C compile features
+[1.190s] -- Detecting C compile features - done
+[1.190s] -- Detecting CXX compiler ABI info
+[1.191s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.191s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.192s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.192s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.192s] -- Configuring done
+[1.192s] -- Generating done
+[1.192s] -- Build files have been written to: /home/student/ros2_ws/build/ros2_control_test_assets
+[1.202s] Invoked command in '/home/student/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/ros2_control_test_assets
+[1.204s] Invoking command in '/home/student/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.533s] Invoked command in '/home/student/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.534s] Invoking command in '/home/student/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/ros2_control_test_assets
+[1.564s] -- Install configuration: ""
+[1.564s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/include
+[1.564s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[1.564s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.565s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.566s] -- Installing: /home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.594s] Invoked command in '/home/student/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/ros2_control_test_assets

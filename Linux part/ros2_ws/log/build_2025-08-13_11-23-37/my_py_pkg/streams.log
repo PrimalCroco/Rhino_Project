@@ -1,0 +1,37 @@
+[2.099s] Invoking command in '/home/student/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/student/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/student/ros2_ws/build/my_py_pkg/build install --record /home/student/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.606s] running egg_info
+[2.607s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.607s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.607s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.608s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.608s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.608s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.608s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.617s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.617s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.617s] running build
+[2.631s] running build_py
+[2.631s] creating /home/student/ros2_ws/build/my_py_pkg/build
+[2.631s] creating /home/student/ros2_ws/build/my_py_pkg/build/lib
+[2.631s] creating /home/student/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.632s] copying my_py_pkg/hello_node.py -> /home/student/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.633s] copying my_py_pkg/__init__.py -> /home/student/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.633s] running install
+[2.633s] running install_lib
+[2.639s] creating /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.639s] copying /home/student/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hello_node.py -> /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.640s] copying /home/student/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.640s] byte-compiling /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hello_node.py to hello_node.cpython-310.pyc
+[2.640s] byte-compiling /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.640s] running install_data
+[2.640s] creating /home/student/ros2_ws/install/my_py_pkg/share/ament_index
+[2.640s] creating /home/student/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.640s] creating /home/student/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.640s] copying resource/my_py_pkg -> /home/student/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.640s] copying package.xml -> /home/student/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.640s] running install_egg_info
+[2.646s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.647s] running install_scripts
+[2.716s] Installing hello_node script to /home/student/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.716s] writing list of installed files to '/home/student/ros2_ws/build/my_py_pkg/install.log'
+[2.784s] Invoked command in '/home/student/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/student/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/student/ros2_ws/build/my_py_pkg/build install --record /home/student/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

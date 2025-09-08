@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 15%] Built target gmock_main
+[ 30%] Built target gps_sensor_broadcaster_parameters
+[ 53%] Built target gmock
+[ 61%] [32mBuilding CXX object CMakeFiles/gps_sensor_broadcaster.dir/src/gps_sensor_broadcaster.cpp.o[0m

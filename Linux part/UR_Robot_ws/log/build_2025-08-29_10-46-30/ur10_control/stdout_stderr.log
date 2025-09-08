@@ -1,0 +1,36 @@
+running develop
+Removing /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10-control.egg-link (link to .)
+running egg_info
+writing ../../build/ur10_control/ur10_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur10_control/ur10_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ur10_control/ur10_control.egg-info/entry_points.txt
+writing requirements to ../../build/ur10_control/ur10_control.egg-info/requires.txt
+writing top-level names to ../../build/ur10_control/ur10_control.egg-info/top_level.txt
+reading manifest file '../../build/ur10_control/ur10_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur10_control/ur10_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/UR_Robot_ws/build/ur10_control/build
+creating /home/student/UR_Robot_ws/build/ur10_control/build/lib
+creating /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control
+copying ur10_control/ur10_commander_IK.py -> /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control
+copying ur10_control/__init__.py -> /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control
+copying ur10_control/ur10_commander_K.py -> /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control
+running install
+running install_lib
+creating /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control
+copying /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control/ur10_commander_IK.py -> /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control
+copying /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control/__init__.py -> /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control
+copying /home/student/UR_Robot_ws/build/ur10_control/build/lib/ur10_control/ur10_commander_K.py -> /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control
+byte-compiling /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control/ur10_commander_IK.py to ur10_commander_IK.cpython-310.pyc
+byte-compiling /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control/ur10_commander_K.py to ur10_commander_K.cpython-310.pyc
+running install_data
+copying resource/ur10_control -> /home/student/UR_Robot_ws/install/ur10_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/UR_Robot_ws/install/ur10_control/share/ur10_control
+running install_egg_info
+Copying ../../build/ur10_control/ur10_control.egg-info to /home/student/UR_Robot_ws/install/ur10_control/lib/python3.10/site-packages/ur10_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ur10_commander_IK script to /home/student/UR_Robot_ws/install/ur10_control/lib/ur10_control
+Installing ur10_commander_K script to /home/student/UR_Robot_ws/install/ur10_control/lib/ur10_control
+writing list of installed files to '/home/student/UR_Robot_ws/build/ur10_control/install.log'

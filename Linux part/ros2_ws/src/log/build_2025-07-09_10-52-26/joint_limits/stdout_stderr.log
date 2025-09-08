@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 11%] Built target ament_generate_version_header__joint_limits
+[ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 44%] Built target gtest_main
+[ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 55%] Built target gtest
+[ 66%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+gmake[2]: *** [CMakeFiles/joint_limits_urdf_test.dir/build.make:76: CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/joint_limits_rosparam_test.dir/build.make:76: CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/joint_limits_urdf_test.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/joint_limits_rosparam_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/build/ur_dashboard_msgs/rosidl_cmake/srv/GetRobotMode_Response.msg

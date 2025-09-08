@@ -1,0 +1,134 @@
+[0.045s] Invoking command in '/home/student/ros2_ws/build/gps_sensor_broadcaster': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_controllers/gps_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/gps_sensor_broadcaster
+[2.765s] -- The CXX compiler identification is GNU 11.4.0
+[2.765s] -- Detecting CXX compiler ABI info
+[2.765s] -- Detecting CXX compiler ABI info - done
+[2.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.765s] -- Detecting CXX compile features
+[2.765s] -- Detecting CXX compile features - done
+[2.765s] -- Found ros2_control_cmake: 0.2.1 (/home/student/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[2.765s] -- Compiler warnings enabled for GNU
+[2.765s] -- Detected GCC Version: 11.4.0 (Major: 11, Minor: 4)
+[2.765s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.765s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.766s] -- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.766s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.766s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.766s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.766s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.766s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.766s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.766s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.766s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.767s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.767s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.767s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.767s] -- Looking for C++ include pthread.h
+[2.767s] -- Looking for C++ include pthread.h - found
+[2.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.767s] -- Found Threads: TRUE  
+[2.767s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.767s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.768s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.768s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.768s] -- Found controller_manager: 2.51.0 (/home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[2.768s] -- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.770s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.770s] -- The C compiler identification is GNU 11.4.0
+[2.770s] -- Detecting C compiler ABI info
+[2.770s] -- Detecting C compiler ABI info - done
+[2.770s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.770s] -- Detecting C compile features
+[2.770s] -- Detecting C compile features - done
+[2.770s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.770s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.815s] -- Configuring done
+[2.824s] [31mCMake Error at CMakeLists.txt:33 (add_library):
+[2.825s]   Target "gps_sensor_broadcaster" links to target
+[2.825s]   "controller_interface::controller_interface" but the target was not found.
+[2.825s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.825s]   ALIAS target is missing?
+[2.825s] 
+[2.826s] [0m
+[2.826s] [31mCMake Error at CMakeLists.txt:33 (add_library):
+[2.826s]   Target "gps_sensor_broadcaster" links to target
+[2.826s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.826s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.826s]   ALIAS target is missing?
+[2.826s] 
+[2.827s] [0m
+[2.827s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.827s]   Target "test_load_gps_sensor_broadcaster" links to target
+[2.827s]   "controller_interface::controller_interface" but the target was not found.
+[2.827s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.827s]   ALIAS target is missing?
+[2.827s] Call Stack (most recent call first):
+[2.827s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.827s]   CMakeLists.txt:63 (ament_add_gmock)
+[2.828s] 
+[2.828s] [0m
+[2.828s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.828s]   Target "test_load_gps_sensor_broadcaster" links to target
+[2.828s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.828s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.828s]   ALIAS target is missing?
+[2.828s] Call Stack (most recent call first):
+[2.829s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.829s]   CMakeLists.txt:63 (ament_add_gmock)
+[2.829s] 
+[2.829s] [0m
+[2.829s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.829s]   Target "test_load_gps_sensor_broadcaster" links to target
+[2.829s]   "controller_manager::controller_manager" but the target was not found.
+[2.829s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.829s]   ALIAS target is missing?
+[2.830s] Call Stack (most recent call first):
+[2.830s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.830s]   CMakeLists.txt:63 (ament_add_gmock)
+[2.830s] 
+[2.830s] [0m
+[2.830s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.830s]   Target "test_load_gps_sensor_broadcaster" links to target
+[2.830s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[2.830s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[2.830s]   an ALIAS target is missing?
+[2.831s] Call Stack (most recent call first):
+[2.831s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.831s]   CMakeLists.txt:63 (ament_add_gmock)
+[2.831s] 
+[2.831s] [0m
+[2.831s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.831s]   Target "test_gps_sensor_broadcaster" links to target
+[2.831s]   "controller_interface::controller_interface" but the target was not found.
+[2.831s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.831s]   ALIAS target is missing?
+[2.832s] Call Stack (most recent call first):
+[2.832s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.832s]   CMakeLists.txt:73 (ament_add_gmock)
+[2.832s] 
+[2.832s] [0m
+[2.832s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.832s]   Target "test_gps_sensor_broadcaster" links to target
+[2.832s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.832s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.832s]   ALIAS target is missing?
+[2.832s] Call Stack (most recent call first):
+[2.832s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.833s]   CMakeLists.txt:73 (ament_add_gmock)
+[2.833s] 
+[2.833s] [0m
+[2.833s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.833s]   Target "test_gps_sensor_broadcaster" links to target
+[2.833s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[2.833s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[2.833s]   an ALIAS target is missing?
+[2.833s] Call Stack (most recent call first):
+[2.833s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.833s]   CMakeLists.txt:73 (ament_add_gmock)
+[2.834s] 
+[2.834s] [0m
+[2.861s] -- Generating done
+[2.864s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ur10_moveit_control.egg-info/PKG-INFO
+writing dependency_links to ur10_moveit_control.egg-info/dependency_links.txt
+writing entry points to ur10_moveit_control.egg-info/entry_points.txt
+writing requirements to ur10_moveit_control.egg-info/requires.txt
+writing top-level names to ur10_moveit_control.egg-info/top_level.txt
+reading manifest file 'ur10_moveit_control.egg-info/SOURCES.txt'
+writing manifest file 'ur10_moveit_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10-moveit-control.egg-link (link to .)
+Installing goto_pose_ik script to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/ur10_moveit_control
+
+Installed /home/student/UR_Robot_ws/build/ur10_moveit_control
+running symlink_data
+symbolically linking /home/student/UR_Robot_ws/build/ur10_moveit_control/resource/ur10_moveit_control -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ament_index/resource_index/packages
+symbolically linking /home/student/UR_Robot_ws/build/ur10_moveit_control/package.xml -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ur10_moveit_control

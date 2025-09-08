@@ -1,0 +1,213 @@
+[0.022s] Invoking command in '/home/student/ros2_ws/build/controller_manager': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/controller_manager
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.722s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.722s] -- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.793s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.804s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.817s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.837s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.134s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.141s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.184s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.261s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.286s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.291s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.304s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.336s] -- Looking for pthread.h
+[1.442s] -- Looking for pthread.h - found
+[1.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.559s] -- Found Threads: TRUE  
+[1.630s] -- Found controller_manager_msgs: 2.51.0 (/home/student/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.653s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.723s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.724s] -- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.734s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.748s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.749s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.765s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.223s] -- Configuring done
+[2.662s] -- Generating done
+[2.708s] -- Build files have been written to: /home/student/ros2_ws/build/controller_manager
+[2.724s] Invoked command in '/home/student/ros2_ws/build/controller_manager' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/controller_manager
+[2.726s] Invoking command in '/home/student/ros2_ws/build/controller_manager': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/controller_manager -- -j8 -l8
+[2.787s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.787s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.788s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.789s] [ 10%] [34m[1mGenerating controller_manager/version.h[0m
+[2.809s] [ 10%] Built target ament_generate_version_header__controller_manager
+[2.841s] [ 10%] Built target ament_cmake_python_copy_controller_manager
+[2.868s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[4.707s] [ 15%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.757s] [ 15%] Built target gmock_main
+[4.790s] [ 15%] Built target ament_cmake_python_copy_controller_manager_setup
+[5.056s] running egg_info
+[5.057s] creating controller_manager.egg-info
+[5.057s] writing controller_manager.egg-info/PKG-INFO
+[5.057s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[5.057s] writing entry points to controller_manager.egg-info/entry_points.txt
+[5.057s] writing top-level names to controller_manager.egg-info/top_level.txt
+[5.058s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[5.060s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[5.060s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[5.089s] [ 15%] Built target ament_cmake_python_build_controller_manager_egg
+[5.187s] running install_scripts
+[5.190s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.190s]   warnings.warn(
+[5.212s] running egg_info
+[5.213s] writing controller_manager.egg-info/PKG-INFO
+[5.213s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[5.213s] writing entry points to controller_manager.egg-info/entry_points.txt
+[5.213s] writing top-level names to controller_manager.egg-info/top_level.txt
+[5.215s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[5.215s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[5.217s] Installing hardware_spawner script to scripts
+[5.217s] Installing spawner script to scripts
+[5.217s] Installing unspawner script to scripts
+[5.254s] [ 15%] Built target ament_cmake_python_build_controller_manager_scripts
+[6.951s] [ 18%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.026s] [ 18%] Built target gmock
+[21.280s] [ 21%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[22.696s] [ 21%] Built target controller_manager
+[22.731s] [ 23%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[22.731s] [ 26%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[22.731s] [ 28%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[22.732s] [ 31%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[22.737s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[22.738s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[22.746s] [ 39%] [32mBuilding CXX object CMakeFiles/test_hardware_spawner.dir/test/test_hardware_spawner.cpp.o[0m
+[27.755s] [ 42%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[28.078s] [ 42%] Built target test_controller
+[28.113s] [ 44%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[28.154s] [ 47%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[29.131s] [ 50%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[29.436s] [ 50%] Built target test_controller_with_interfaces
+[29.436s] [ 52%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[29.502s] [ 55%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[29.732s] [ 55%] Built target test_controller_failed_init
+[29.794s] [ 57%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[30.110s] [ 60%] [32m[1mLinking CXX executable ros2_control_node[0m
+[31.909s] [ 60%] Built target ros2_control_node
+[31.945s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[33.269s] [ 65%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[34.791s] [ 68%] [32m[1mLinking CXX executable test_hardware_spawner[0m
+[35.365s] [ 68%] Built target test_controller_manager_urdf_passing
+[35.401s] [ 71%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[36.555s] [ 73%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[36.897s] [ 73%] Built target test_hardware_spawner
+[37.402s] [ 73%] Built target test_chainable_controller
+[37.447s] [ 76%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[37.452s] [ 78%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[38.866s] [ 81%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[40.609s] [ 84%] [32m[1mLinking CXX executable test_controller_manager[0m
+[40.912s] [ 84%] Built target test_controller_manager_with_namespace.cpp
+[42.330s] [ 86%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[42.418s] [ 89%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[42.764s] [ 89%] Built target test_controller_manager
+[43.665s] [ 92%] [32m[1mLinking CXX executable test_load_controller[0m
+[44.846s] [ 92%] Built target test_spawner_unspawner
+[44.996s] [ 92%] Built target test_hardware_management_srvs
+[45.480s] [ 94%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[45.684s] [ 94%] Built target test_load_controller
+[46.570s] [ 94%] Built target test_release_interfaces
+[47.475s] [ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[48.550s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[51.710s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[53.120s] [100%] Built target test_controller_manager_srvs
+[53.132s] Invoked command in '/home/student/ros2_ws/build/controller_manager' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/controller_manager -- -j8 -l8
+[53.134s] Invoking command in '/home/student/ros2_ws/build/controller_manager': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/controller_manager
+[53.142s] -- Install configuration: ""
+[53.142s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[53.155s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[53.155s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[53.156s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[53.156s] -- Installing: /home/student/ros2_ws/install/controller_manager/include
+[53.156s] -- Installing: /home/student/ros2_ws/install/controller_manager/include/controller_manager
+[53.156s] -- Installing: /home/student/ros2_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[53.156s] -- Installing: /home/student/ros2_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[53.156s] -- Installing: /home/student/ros2_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[53.157s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[53.157s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/libtest_controller.so
+[53.157s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/libtest_controller.so" to ""
+[53.157s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[53.158s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[53.158s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[53.158s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[53.158s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[53.164s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/libtest_chainable_controller.so" to ""
+[53.164s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[53.164s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[53.164s] -- Set runtime path of "/home/student/ros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_controller_spawner_with_type.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_controller_spawner_with_basic_controllers.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_controller_overriding_parameters.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_controller_spawner_wildcard_entries.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_controller_spawner_with_interfaces.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/test/test_ros2_control_node.yaml
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[53.165s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info/top_level.txt
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info/PKG-INFO
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info/entry_points.txt
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info/dependency_links.txt
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.51.0-py3.10.egg-info/SOURCES.txt
+[53.166s] -- Up-to-date: /home/student/ros2_ws/install/controller_manager/lib/controller_manager/
+[53.166s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/controller_manager//unspawner
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/lib/controller_manager//spawner
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/test_utils.py
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[53.167s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[53.168s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[53.168s] -- Installing: /home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[53.211s] Listing '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[53.211s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+[53.211s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+[53.212s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py'...
+[53.212s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+[53.212s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+[53.212s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/test_utils.py'...
+[53.212s] Compiling '/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...
+[53.215s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[53.216s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[53.216s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[53.216s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[53.216s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[53.216s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[53.217s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.218s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[53.219s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[53.219s] -- Installing: /home/student/ros2_ws/install/controller_manager/share/controller_manager/package.xml
+[53.219s] -- Installing: /home/student/ros2_ws/install/controller_manager/include/controller_manager/controller_manager/version.h
+[53.221s] Invoked command in '/home/student/ros2_ws/build/controller_manager' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/controller_manager

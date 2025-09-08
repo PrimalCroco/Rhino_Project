@@ -1,0 +1,15 @@
+[01m[K/home/student/ros2_ws/src/ros2_controllers/admittance_controller/test/test_load_admittance_controller.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kcontroller_manager/controller_manager.hpp: No such file or directory
+   19 | #include [01;31m[K"controller_manager/controller_manager.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_load_admittance_controller.dir/build.make:76: CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/test_load_admittance_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/student/ros2_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:17[m[K:
+[01m[K/home/student/ros2_ws/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_controller.hpp:35:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+   35 | #include [01;31m[K"realtime_tools/realtime_thread_safe_box.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/admittance_controller.dir/build.make:76: CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/admittance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,219 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found joint_trajectory_controller: 2.49.1 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ur_dashboard_msgs: 2.8.1 (/home/student/UR_Robot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 2.51.0 (/home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+[33mCMake Warning at CMakeLists.txt:95 (add_library):
+  Cannot generate a safe runtime search path for target ur_controllers
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+      dir 1 must precede it due to runtime library [libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so]
+      dir 2 must precede it due to runtime library [libfake_components.so]
+      dir 3 must precede it due to runtime library [libcontroller_interface.so]
+    dir 1 is [/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib]
+    dir 2 is [/home/student/ros2_ws/install/hardware_interface/lib]
+      dir 0 must precede it due to runtime library [libfake_components.so]
+    dir 3 is [/home/student/ros2_ws/install/controller_interface/lib]
+      dir 0 must precede it due to runtime library [libcontroller_interface.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Cannot generate a safe runtime search path for target
+  test_load_force_mode_controller because there is a cycle in the constraint
+  graph:
+
+    dir 0 is [/home/student/UR_Robot_ws/build/ur_controllers]
+    dir 1 is [/home/student/ros2_ws/install/controller_manager/lib]
+    dir 2 is [/opt/ros/humble/lib]
+      dir 0 must precede it due to runtime library [libur_controllers.so]
+      dir 1 must precede it due to runtime library [libcontroller_manager.so]
+      dir 3 must precede it due to runtime library [libcontroller_interface.so]
+      dir 4 must precede it due to runtime library [libcontroller_manager_msgs__rosidl_generator_c.so]
+      dir 5 must precede it due to runtime library [libfake_components.so]
+      dir 6 must precede it due to runtime library [libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so]
+    dir 3 is [/home/student/ros2_ws/install/controller_interface/lib]
+      dir 2 must precede it due to runtime library [libcontroller_interface.so]
+    dir 4 is [/home/student/ros2_ws/install/controller_manager_msgs/lib]
+    dir 5 is [/home/student/ros2_ws/install/hardware_interface/lib]
+      dir 2 must precede it due to runtime library [libfake_components.so]
+    dir 6 is [/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:164 (ament_add_gmock)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Cannot generate a safe runtime search path for target
+  test_load_freedrive_mode_controller because there is a cycle in the
+  constraint graph:
+
+    dir 0 is [/home/student/UR_Robot_ws/build/ur_controllers]
+    dir 1 is [/home/student/ros2_ws/install/controller_manager/lib]
+    dir 2 is [/opt/ros/humble/lib]
+      dir 0 must precede it due to runtime library [libur_controllers.so]
+      dir 1 must precede it due to runtime library [libcontroller_manager.so]
+      dir 3 must precede it due to runtime library [libcontroller_interface.so]
+      dir 4 must precede it due to runtime library [libcontroller_manager_msgs__rosidl_generator_c.so]
+      dir 5 must precede it due to runtime library [libfake_components.so]
+      dir 6 must precede it due to runtime library [libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so]
+    dir 3 is [/home/student/ros2_ws/install/controller_interface/lib]
+      dir 2 must precede it due to runtime library [libcontroller_interface.so]
+    dir 4 is [/home/student/ros2_ws/install/controller_manager_msgs/lib]
+    dir 5 is [/home/student/ros2_ws/install/hardware_interface/lib]
+      dir 2 must precede it due to runtime library [libfake_components.so]
+    dir 6 is [/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:174 (ament_add_gmock)
+
+[0m
+-- Generating done
+-- Build files have been written to: /home/student/UR_Robot_ws/build/ur_controllers
+[  5%] Built target force_mode_controller_parameters
+[ 11%] Built target tool_contact_controller_parameters
+[ 23%] Built target freedrive_mode_controller_parameters
+[ 23%] Built target gpio_controller_parameters
+[ 32%] Built target passthrough_trajectory_controller_parameters
+[ 35%] Built target scaled_joint_trajectory_controller_parameters
+[ 41%] Built target ur_configuration_controller_parameters
+[ 47%] Built target speed_scaling_state_broadcaster_parameters
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[ 52%] Built target gmock_main
+[ 61%] Built target gmock
+[ 88%] Built target ur_controllers
+[35m[1mConsolidate compiler generated dependencies of target test_load_force_mode_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target test_load_freedrive_mode_controller[0m
+[ 94%] Built target test_load_force_mode_controller
+[100%] Built target test_load_freedrive_mode_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/lib/libur_controllers.so
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+-- Symlinking: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/package.dsv
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+-- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_controllers/share/ur_controllers/package.xml

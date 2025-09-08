@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from modbus_interface/srv/SetCoil.srv
+// generated code does not contain a copyright notice
+
+
+module modbus_interface {
+  module srv {
+    struct SetCoil_Request {
+      int32 address;
+
+      boolean state;
+    };
+    struct SetCoil_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

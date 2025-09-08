@@ -1,0 +1,17 @@
+[1.719s] Invoking command in '/home/student/UR_Robot_ws/build/ur10_moveit_control': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/UR_Robot_ws/build/ur10_moveit_control/build --no-deps symlink_data
+[2.285s] running develop
+[2.532s] running egg_info
+[2.532s] writing ur10_moveit_control.egg-info/PKG-INFO
+[2.533s] writing dependency_links to ur10_moveit_control.egg-info/dependency_links.txt
+[2.533s] writing entry points to ur10_moveit_control.egg-info/entry_points.txt
+[2.533s] writing requirements to ur10_moveit_control.egg-info/requires.txt
+[2.533s] writing top-level names to ur10_moveit_control.egg-info/top_level.txt
+[2.536s] reading manifest file 'ur10_moveit_control.egg-info/SOURCES.txt'
+[2.537s] writing manifest file 'ur10_moveit_control.egg-info/SOURCES.txt'
+[2.538s] running build_ext
+[2.539s] Creating /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10-moveit-control.egg-link (link to .)
+[2.540s] Installing goto_pose_ik script to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/ur10_moveit_control
+[2.540s] 
+[2.540s] Installed /home/student/UR_Robot_ws/build/ur10_moveit_control
+[2.540s] running symlink_data
+[2.571s] Invoked command in '/home/student/UR_Robot_ws/build/ur10_moveit_control' returned '0': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/UR_Robot_ws/build/ur10_moveit_control/build --no-deps symlink_data

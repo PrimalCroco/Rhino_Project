@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 15%] Built target gmock_main
+[ 30%] Built target gpio_command_controller_parameters
+[ 53%] Built target gmock
+[ 61%] [32mBuilding CXX object CMakeFiles/gpio_controllers.dir/src/gpio_command_controller.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_load_gpio_command_controller.dir/test/test_load_gpio_command_controller.cpp.o[0m

@@ -1,0 +1,32 @@
+running develop
+Removing /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon-package-moveit.egg-link (link to .)
+running egg_info
+writing ../../build/mon_package_moveit/mon_package_moveit.egg-info/PKG-INFO
+writing dependency_links to ../../build/mon_package_moveit/mon_package_moveit.egg-info/dependency_links.txt
+writing entry points to ../../build/mon_package_moveit/mon_package_moveit.egg-info/entry_points.txt
+writing requirements to ../../build/mon_package_moveit/mon_package_moveit.egg-info/requires.txt
+writing top-level names to ../../build/mon_package_moveit/mon_package_moveit.egg-info/top_level.txt
+reading manifest file '../../build/mon_package_moveit/mon_package_moveit.egg-info/SOURCES.txt'
+writing manifest file '../../build/mon_package_moveit/mon_package_moveit.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/UR_Robot_ws/build/mon_package_moveit/build
+creating /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib
+creating /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib/mon_package_moveit
+copying mon_package_moveit/__init__.py -> /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib/mon_package_moveit
+copying mon_package_moveit/go_to_pose.py -> /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib/mon_package_moveit
+running install
+running install_lib
+creating /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit
+copying /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib/mon_package_moveit/__init__.py -> /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit
+copying /home/student/UR_Robot_ws/build/mon_package_moveit/build/lib/mon_package_moveit/go_to_pose.py -> /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit
+byte-compiling /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit/go_to_pose.py to go_to_pose.cpython-310.pyc
+running install_data
+copying resource/mon_package_moveit -> /home/student/UR_Robot_ws/install/mon_package_moveit/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/UR_Robot_ws/install/mon_package_moveit/share/mon_package_moveit
+running install_egg_info
+Copying ../../build/mon_package_moveit/mon_package_moveit.egg-info to /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon_package_moveit-0.0.0-py3.10.egg-info
+running install_scripts
+Installing go_to_pose script to /home/student/UR_Robot_ws/install/mon_package_moveit/lib/mon_package_moveit
+writing list of installed files to '/home/student/UR_Robot_ws/build/mon_package_moveit/install.log'

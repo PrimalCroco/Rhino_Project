@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing mon_package_moveit.egg-info/PKG-INFO
+writing dependency_links to mon_package_moveit.egg-info/dependency_links.txt
+writing entry points to mon_package_moveit.egg-info/entry_points.txt
+writing requirements to mon_package_moveit.egg-info/requires.txt
+writing top-level names to mon_package_moveit.egg-info/top_level.txt
+reading manifest file 'mon_package_moveit.egg-info/SOURCES.txt'
+writing manifest file 'mon_package_moveit.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/UR_Robot_ws/install/mon_package_moveit/lib/python3.10/site-packages/mon-package-moveit.egg-link (link to .)
+Installing go_to_pose script to /home/student/UR_Robot_ws/install/mon_package_moveit/lib/mon_package_moveit
+
+Installed /home/student/UR_Robot_ws/build/mon_package_moveit
+running symlink_data
+symbolically linking /home/student/UR_Robot_ws/build/mon_package_moveit/resource/mon_package_moveit -> /home/student/UR_Robot_ws/install/mon_package_moveit/share/ament_index/resource_index/packages
+symbolically linking /home/student/UR_Robot_ws/build/mon_package_moveit/package.xml -> /home/student/UR_Robot_ws/install/mon_package_moveit/share/mon_package_moveit

@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur10_control/setup.py

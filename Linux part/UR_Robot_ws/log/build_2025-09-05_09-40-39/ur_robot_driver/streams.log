@@ -1,0 +1,109 @@
+[0.017s] Invoking command in '/home/student/UR_Robot_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/student/UR_Robot_ws/install/ur_controllers:/home/student/UR_Robot_ws/install/ur_description:/home/student/UR_Robot_ws/install/ur_dashboard_msgs:/home/student/UR_Robot_ws/install/ur:/home/student/UR_Robot_ws/install/ur_calibration:/home/student/UR_Robot_ws/install/ur_robot_driver:/home/student/UR_Robot_ws/install/ur_moveit_config:/home/student/UR_Robot_ws/install/ur_bringup:/home/student/UR_Robot_ws/install/ur10_moveit_control:/home/student/UR_Robot_ws/install/ur10_control:/home/student/UR_Robot_ws/install/mon_package_moveit:/opt/ros/humble LD_LIBRARY_PATH=/home/student/UR_Robot_ws/install/ur_controllers/lib:/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib:/home/student/UR_Robot_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/UR_Robot_ws/build/ur_robot_driver -- -j8 -l8
+[0.106s] [  0%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.112s] [ 15%] Built target controller_stopper_node
+[0.115s] [ 25%] Built target ur_ros2_control_node
+[0.118s] [ 35%] Built target urscript_interface
+[0.119s] [ 55%] Built target robot_state_helper
+[0.122s] [ 80%] Built target ur_robot_driver_plugin
+[0.127s] [100%] Built target dashboard_client
+[0.364s] running egg_info
+[0.365s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.365s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.365s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.367s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.367s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.392s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[0.404s] Invoked command in '/home/student/UR_Robot_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/student/UR_Robot_ws/install/ur_controllers:/home/student/UR_Robot_ws/install/ur_description:/home/student/UR_Robot_ws/install/ur_dashboard_msgs:/home/student/UR_Robot_ws/install/ur:/home/student/UR_Robot_ws/install/ur_calibration:/home/student/UR_Robot_ws/install/ur_robot_driver:/home/student/UR_Robot_ws/install/ur_moveit_config:/home/student/UR_Robot_ws/install/ur_bringup:/home/student/UR_Robot_ws/install/ur10_moveit_control:/home/student/UR_Robot_ws/install/ur10_control:/home/student/UR_Robot_ws/install/mon_package_moveit:/opt/ros/humble LD_LIBRARY_PATH=/home/student/UR_Robot_ws/install/ur_controllers/lib:/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib:/home/student/UR_Robot_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/UR_Robot_ws/build/ur_robot_driver -- -j8 -l8
+[0.405s] Invoking command in '/home/student/UR_Robot_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/student/UR_Robot_ws/install/ur_controllers:/home/student/UR_Robot_ws/install/ur_description:/home/student/UR_Robot_ws/install/ur_dashboard_msgs:/home/student/UR_Robot_ws/install/ur:/home/student/UR_Robot_ws/install/ur_calibration:/home/student/UR_Robot_ws/install/ur_robot_driver:/home/student/UR_Robot_ws/install/ur_moveit_config:/home/student/UR_Robot_ws/install/ur_bringup:/home/student/UR_Robot_ws/install/ur10_moveit_control:/home/student/UR_Robot_ws/install/ur10_control:/home/student/UR_Robot_ws/install/mon_package_moveit:/opt/ros/humble LD_LIBRARY_PATH=/home/student/UR_Robot_ws/install/ur_controllers/lib:/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib:/home/student/UR_Robot_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/UR_Robot_ws/build/ur_robot_driver
+[0.413s] -- Install configuration: "RelWithDebInfo"
+[0.414s] -- Execute custom install script
+[0.414s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[0.414s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[0.415s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[0.415s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[0.415s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[0.415s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[0.416s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[0.417s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.417s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.417s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.417s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[0.417s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.418s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[0.418s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[0.418s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.418s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.418s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/PKG-INFO
+[0.419s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/SOURCES.txt
+[0.420s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/dependency_links.txt
+[0.420s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/top_level.txt
+[0.420s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[0.421s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[0.421s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[0.421s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[0.421s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[0.421s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[0.422s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[0.422s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[0.422s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[0.422s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[0.422s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[0.423s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[0.424s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[0.425s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[0.426s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[0.426s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[0.426s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[0.426s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[0.426s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[0.427s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[0.427s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[0.427s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[0.427s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[0.427s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[0.428s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[0.428s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[0.428s] -- Symlinking: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[0.436s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[0.436s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[0.436s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.437s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.437s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.437s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[0.437s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[0.437s] -- Up-to-date symlink: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[0.437s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[0.438s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[0.438s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[0.438s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[0.438s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[0.438s] -- Up-to-date: /home/student/UR_Robot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[0.470s] Listing '/home/student/UR_Robot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[0.476s] Invoked command in '/home/student/UR_Robot_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/student/UR_Robot_ws/install/ur_controllers:/home/student/UR_Robot_ws/install/ur_description:/home/student/UR_Robot_ws/install/ur_dashboard_msgs:/home/student/UR_Robot_ws/install/ur:/home/student/UR_Robot_ws/install/ur_calibration:/home/student/UR_Robot_ws/install/ur_robot_driver:/home/student/UR_Robot_ws/install/ur_moveit_config:/home/student/UR_Robot_ws/install/ur_bringup:/home/student/UR_Robot_ws/install/ur10_moveit_control:/home/student/UR_Robot_ws/install/ur10_control:/home/student/UR_Robot_ws/install/mon_package_moveit:/opt/ros/humble LD_LIBRARY_PATH=/home/student/UR_Robot_ws/install/ur_controllers/lib:/home/student/UR_Robot_ws/install/ur_dashboard_msgs/lib:/home/student/UR_Robot_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/UR_Robot_ws/build/ur_robot_driver

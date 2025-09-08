@@ -1,0 +1,4 @@
+[console_scripts]
+ur10_commander_IK = ur10_control.ur10_commander_IK:main
+ur10_commander_K = ur10_control.ur10_commander_K:main
+

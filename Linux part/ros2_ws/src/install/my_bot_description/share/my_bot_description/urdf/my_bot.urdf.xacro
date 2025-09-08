@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<robot name="my_bot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Link unique -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.2"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.2" radius="0.2"/>
+      </geometry>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </inertial>
+  </link>
+
+  <!-- Si tu veux faire bouger un joint, il faut au moins un joint -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="5.0" velocity="1.0" lower="-1.57" upper="1.57"/>
+  </joint>
+
+  <link name="link1">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.005" ixy="0.0" ixz="0.0" iyy="0.005" iyz="0.0" izz="0.005"/>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    </inertial>
+  </link>
+
+  <!-- ros2_control -->
+  <ros2_control name="MyRobotHardware" type="system">  #VERIFIER
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystemInterface</plugin>
+    </hardware>
+
+    <joint name="joint1">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+  
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+  </gazebo>
+
+
+</robot>
+

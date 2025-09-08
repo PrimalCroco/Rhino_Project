@@ -1,0 +1,14 @@
+[0.033s] Invoking command in '/home/student/ros2_ws/src/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/joint_limits -- -j8 -l8
+[1.162s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.162s] [ 11%] Built target ament_generate_version_header__joint_limits
+[1.162s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.162s] [ 44%] Built target gtest_main
+[6.306s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.476s] [ 55%] Built target gtest
+[6.534s] [ 66%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[6.542s] [ 77%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[7.172s] gmake[2]: *** [CMakeFiles/joint_limits_urdf_test.dir/build.make:76: CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o] Interrupt
+[7.173s] gmake[2]: *** [CMakeFiles/joint_limits_rosparam_test.dir/build.make:76: CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o] Interrupt
+[7.173s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/joint_limits_urdf_test.dir/all] Interrupt
+[7.173s] gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/joint_limits_rosparam_test.dir/all] Interrupt
+[7.173s] gmake: *** [Makefile:146: all] Interrupt

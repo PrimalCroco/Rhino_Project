@@ -1,0 +1,143 @@
+[0.028s] Invoking command in '/home/student/ros2_ws/src/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/controller_manager_msgs
+[0.770s] -- The C compiler identification is GNU 11.4.0
+[0.770s] -- The CXX compiler identification is GNU 11.4.0
+[0.770s] -- Detecting C compiler ABI info
+[0.770s] -- Detecting C compiler ABI info - done
+[0.770s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.770s] -- Detecting C compile features
+[0.770s] -- Detecting C compile features - done
+[0.770s] -- Detecting CXX compiler ABI info
+[0.770s] -- Detecting CXX compiler ABI info - done
+[0.770s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.771s] -- Detecting CXX compile features
+[0.771s] -- Detecting CXX compile features - done
+[0.771s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.771s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.771s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.771s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.771s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.771s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.771s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.771s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.948s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.949s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.951s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.953s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.612s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.649s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.649s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.650s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.650s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.682s] -- Found PythonExtra: .so  
+[1.742s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.745s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.758s] -- Configuring done
+[1.873s] -- Generating done
+[1.896s] -- Build files have been written to: /home/student/ros2_ws/src/build/controller_manager_msgs
+[1.906s] Invoked command in '/home/student/ros2_ws/src/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/controller_manager_msgs
+[1.909s] Invoking command in '/home/student/ros2_ws/src/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/controller_manager_msgs -- -j8 -l8
+[2.071s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.072s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.072s] [  1%] Built target ament_cmake_python_copy_controller_manager_msgs
+[2.422s] running egg_info
+[2.423s] creating controller_manager_msgs.egg-info
+[2.424s] writing controller_manager_msgs.egg-info/PKG-INFO
+[2.424s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[2.424s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[2.424s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[2.427s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[2.428s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[2.465s] [  1%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[4.574s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/controller_manager_msgs/msg/controller_state.hpp'
+[4.575s] Traceback (most recent call last):
+[4.576s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[4.576s] Traceback (most recent call last):
+[4.576s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[4.576s]     sys.exit(main())
+[4.576s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[4.579s]     sys.exit(main())
+[4.579s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[4.579s]     generate_c(args.generator_arguments_file)
+[4.579s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[4.579s]     generate_cpp(args.generator_arguments_file)
+[4.580s]     return generate_files(
+[4.580s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[4.580s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[4.580s]     expand_template(
+[4.580s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[4.580s]     return generate_files(
+[4.580s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[4.580s]     interpreter.string(template_content, template_path, locals=data)
+[4.580s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[4.580s]     expand_template(
+[4.581s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[4.581s]     interpreter.string(template_content, template_path, locals=data)
+[4.581s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[4.581s]     self.safe(scanner, True, locals)
+[4.581s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[4.581s] gmake[2]: *** Deleting file 'rosidl_generator_c/controller_manager_msgs/msg/controller_state.h'
+[4.581s]     self.parse(scanner, locals)
+[4.582s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[4.583s]     token = scanner.one()
+[4.583s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[4.583s]     token.scan(self)
+[4.583s]   File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+[4.583s]     self.safe(scanner, True, locals)
+[4.583s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[4.583s]     i = scanner.complex('{', '}', 0)
+[4.583s]   File "/usr/lib/python3/dist-packages/em.py", line 1901, in complex
+[4.583s]     self.parse(scanner, locals)
+[4.584s]     c = self[i]
+[4.584s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[4.584s]   File "/usr/lib/python3/dist-packages/em.py", line 1683, in __getitem__
+[4.584s]     if isinstance(index, slice):
+[4.584s] KeyboardInterrupt
+[4.584s]     token.run(self, locals)
+[4.584s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[4.584s]     self.subrun(info[0][1], interpreter, locals)
+[4.584s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[4.585s]     token.run(interpreter, locals)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[4.585s]     interpreter.execute(self.code, locals)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[4.585s]     _exec(statements, self.globals, locals)
+[4.585s]   File "<string>", line 2, in <module>
+[4.585s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[4.585s]     interpreter.string(content, str(template_path), kwargs)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[4.585s]     self.safe(scanner, True, locals)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[4.585s]     self.parse(scanner, locals)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[4.585s]     token = scanner.one()
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[4.585s]     token.scan(self)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 1309, in scan
+[4.585s]     z = scanner.complex('(', ')', 0)
+[4.585s]   File "/usr/lib/python3/dist-packages/em.py", line 1907, in complex
+[4.585s]     if c == enter:
+[4.585s] KeyboardInterrupt
+[4.594s] Exception ignored in: <function Interpreter.__del__ at 0x71db7b533f40>
+[4.594s] Traceback (most recent call last):
+[4.594s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[4.594s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[4.594s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[4.594s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[4.594s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[4.597s] Exception ignored in: <function Interpreter.__del__ at 0x785ddc133d00>
+[4.597s] Traceback (most recent call last):
+[4.597s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[4.597s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[4.597s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[4.597s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[4.597s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[4.601s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__cpp.dir/build.make:181: rosidl_generator_cpp/controller_manager_msgs/msg/controller_state.hpp] Interrupt
+[4.602s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/controller_manager_msgs__cpp.dir/all] Interrupt
+[4.607s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/build.make:110: rosidl_generator_c/controller_manager_msgs/msg/controller_state.h] Interrupt
+[4.607s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/all] Interrupt
+[4.607s] gmake: *** [Makefile:146: all] Interrupt

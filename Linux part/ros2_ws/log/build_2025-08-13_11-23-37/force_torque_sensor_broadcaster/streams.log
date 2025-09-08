@@ -1,0 +1,132 @@
+[0.051s] Invoking command in '/home/student/ros2_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/force_torque_sensor_broadcaster
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.378s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.539s] -- Detecting CXX compile features - done
+[0.539s] -- Found ros2_control_cmake: 0.2.1 (/home/student/ros2_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.539s] -- Compiler warnings enabled for GNU
+[0.539s] -- Detected GCC Version: 11.4.0 (Major: 11, Minor: 4)
+[0.546s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.852s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.086s] -- Found controller_interface: 2.51.0 (/home/student/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.214s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.236s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.261s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.878s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.887s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.959s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.067s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.099s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.114s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.163s] -- Looking for pthread.h
+[2.334s] -- Looking for pthread.h - found
+[2.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.502s] -- Found Threads: TRUE  
+[2.618s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.632s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.688s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.732s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.732s] -- Found controller_manager: 2.51.0 (/home/student/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[2.780s] -- Found ros2_control_test_assets: 2.51.0 (/home/student/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.790s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.805s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.806s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.929s] -- Configuring done
+[2.940s] [31mCMake Error at CMakeLists.txt:29 (add_library):
+[2.940s]   Target "force_torque_sensor_broadcaster" links to target
+[2.940s]   "controller_interface::controller_interface" but the target was not found.
+[2.940s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.940s]   ALIAS target is missing?
+[2.940s] 
+[2.941s] [0m
+[2.941s] [31mCMake Error at CMakeLists.txt:29 (add_library):
+[2.941s]   Target "force_torque_sensor_broadcaster" links to target
+[2.941s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.941s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.941s]   ALIAS target is missing?
+[2.942s] 
+[2.942s] [0m
+[2.942s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.942s]   Target "test_load_force_torque_sensor_broadcaster" links to target
+[2.942s]   "controller_interface::controller_interface" but the target was not found.
+[2.942s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.942s]   ALIAS target is missing?
+[2.942s] Call Stack (most recent call first):
+[2.942s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.942s]   CMakeLists.txt:57 (ament_add_gmock)
+[2.942s] 
+[2.942s] [0m
+[2.943s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.943s]   Target "test_load_force_torque_sensor_broadcaster" links to target
+[2.943s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.943s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.943s]   ALIAS target is missing?
+[2.943s] Call Stack (most recent call first):
+[2.943s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.943s]   CMakeLists.txt:57 (ament_add_gmock)
+[2.943s] 
+[2.943s] [0m
+[2.943s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.944s]   Target "test_load_force_torque_sensor_broadcaster" links to target
+[2.944s]   "controller_manager::controller_manager" but the target was not found.
+[2.944s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.944s]   ALIAS target is missing?
+[2.944s] Call Stack (most recent call first):
+[2.944s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.944s]   CMakeLists.txt:57 (ament_add_gmock)
+[2.944s] 
+[2.944s] [0m
+[2.944s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.944s]   Target "test_load_force_torque_sensor_broadcaster" links to target
+[2.944s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.945s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.945s]   ALIAS target is missing?
+[2.945s] Call Stack (most recent call first):
+[2.945s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.945s]   CMakeLists.txt:57 (ament_add_gmock)
+[2.945s] 
+[2.945s] [0m
+[2.945s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+[2.945s]   Target "test_load_force_torque_sensor_broadcaster" links to target
+[2.945s]   "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+[2.946s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[2.946s]   an ALIAS target is missing?
+[2.946s] Call Stack (most recent call first):
+[2.946s]   /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+[2.946s]   CMakeLists.txt:57 (ament_add_gmock)
+[2.946s] 
+[2.946s] [0m
+[2.946s] [31mCMake Error at /opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake:164 (add_executable):
+[2.946s]   Target "test_force_torque_sensor_broadcaster" links to target
+[2.946s]   "controller_interface::controller_interface" but the target was not found.
+[2.946s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.946s]   ALIAS target is missing?
+[2.947s] Call Stack (most recent call first):
+[2.947s]   CMakeLists.txt:66 (add_rostest_with_parameters_gmock)
+[2.947s] 
+[2.947s] [0m
+[2.947s] [31mCMake Error at /opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake:164 (add_executable):
+[2.947s]   Target "test_force_torque_sensor_broadcaster" links to target
+[2.947s]   "hardware_interface::hardware_interface" but the target was not found.
+[2.947s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.947s]   ALIAS target is missing?
+[2.947s] Call Stack (most recent call first):
+[2.947s]   CMakeLists.txt:66 (add_rostest_with_parameters_gmock)
+[2.947s] 
+[2.948s] [0m
+[2.972s] -- Generating done
+[2.975s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

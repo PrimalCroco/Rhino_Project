@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur_bringup/scripts/start_ursim.sh

@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur_moveit_config/ur_moveit_config/__init__.py

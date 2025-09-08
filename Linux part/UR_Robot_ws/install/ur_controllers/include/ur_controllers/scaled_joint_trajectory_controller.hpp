@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp

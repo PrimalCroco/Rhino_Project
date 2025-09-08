@@ -1,0 +1,9 @@
+In file included from [01m[K/home/student/ros2_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:15[m[K:
+[01m[K/home/student/ros2_ws/src/ros2_controllers/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+   28 | #include [01;31m[K"realtime_tools/realtime_thread_safe_box.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gpio_controllers.dir/build.make:76: CMakeFiles/gpio_controllers.dir/src/gpio_command_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/gpio_controllers.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

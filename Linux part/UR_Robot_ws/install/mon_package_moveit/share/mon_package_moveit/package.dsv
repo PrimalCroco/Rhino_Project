@@ -1,0 +1,9 @@
+source;share/mon_package_moveit/hook/pythonpath.ps1
+source;share/mon_package_moveit/hook/pythonpath.dsv
+source;share/mon_package_moveit/hook/pythonpath.sh
+source;share/mon_package_moveit/hook/ament_prefix_path.ps1
+source;share/mon_package_moveit/hook/ament_prefix_path.dsv
+source;share/mon_package_moveit/hook/ament_prefix_path.sh
+source;../../build/mon_package_moveit/share/mon_package_moveit/hook/pythonpath_develop.ps1
+source;../../build/mon_package_moveit/share/mon_package_moveit/hook/pythonpath_develop.dsv
+source;../../build/mon_package_moveit/share/mon_package_moveit/hook/pythonpath_develop.sh

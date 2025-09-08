@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/joint_limits_urdf_test.dir/build.make:76: CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/joint_limits_rosparam_test.dir/build.make:76: CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/joint_limits_urdf_test.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/joint_limits_rosparam_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

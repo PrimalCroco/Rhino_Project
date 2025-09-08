@@ -1,0 +1,20 @@
+[0.033s] Invoking command in '/home/student/ros2_ws/src/build/hardware_interface': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/hardware_interface -- -j8 -l8
+[0.152s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.161s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.181s] [  8%] Built target ament_generate_version_header__hardware_interface
+[0.182s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target hardware_interface[0m
+[0.261s] [ 14%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m
+[0.264s] [ 17%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o[0m
+[0.266s] [ 20%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor.cpp.o[0m
+[0.272s] [ 22%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/lexical_casts.cpp.o[0m
+[3.756s] [ 25%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.844s] [ 25%] Built target gmock_main
+[5.935s] gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+[5.935s] gmake[1]: *** [CMakeFiles/Makefile2:491: gmock/CMakeFiles/gmock.dir/all] Interrupt
+[5.935s] gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:104: CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o] Interrupt
+[5.935s] gmake[2]: *** wait: No child processes.  Stop.
+[5.936s] gmake[2]: *** Waiting for unfinished jobs....
+[5.936s] gmake[2]: *** wait: No child processes.  Stop.
+[5.936s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/hardware_interface.dir/all] Error 2
+[5.936s] gmake: *** [Makefile:146: all] Interrupt

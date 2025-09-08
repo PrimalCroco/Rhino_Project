@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/build/ur/ament_cmake_environment_hooks/local_setup.sh

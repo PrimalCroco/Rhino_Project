@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 14%] Built target diff_drive_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target diff_drive_controller[0m
+[ 35%] Built target gmock
+[ 50%] Built target gmock_main
+[ 57%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m

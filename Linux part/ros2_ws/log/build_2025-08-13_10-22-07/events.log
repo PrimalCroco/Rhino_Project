@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000496] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000581] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000600] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000614] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000628] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000641] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000654] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000667] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000680] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000693] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000707] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000720] (-) JobUnselected: {'identifier': 'gps_sensor_broadcaster'}
+[0.000733] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000746] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000758] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000771] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000784] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000797] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000810] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.000823] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.000836] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000849] (-) JobUnselected: {'identifier': 'opcua_ros_client'}
+[0.000862] (-) JobUnselected: {'identifier': 'parallel_gripper_controller'}
+[0.000874] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000887] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.000900] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000912] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000925] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000938] (-) JobUnselected: {'identifier': 'ros2_control_cmake'}
+[0.000950] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000963] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000976] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000989] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.001002] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.001014] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001027] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001040] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001053] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001065] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001078] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001091] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001105] (modbus_interface) JobQueued: {'identifier': 'modbus_interface', 'dependencies': OrderedDict()}
+[0.001121] (modbus_interface) JobStarted: {'identifier': 'modbus_interface'}
+[0.099543] (-) TimerEvent: {}
+[0.199785] (-) TimerEvent: {}
+[0.300008] (-) TimerEvent: {}
+[0.400271] (-) TimerEvent: {}
+[0.500519] (-) TimerEvent: {}
+[0.600791] (-) TimerEvent: {}
+[0.618589] (modbus_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/modbus_interface', 'build', '--build-base', '/home/student/ros2_ws/build/modbus_interface/build', 'install', '--record', '/home/student/ros2_ws/build/modbus_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student/ros2_ws/src/modbus_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'student', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/student/ros2_ws/install/transmission_interface/lib:/home/student/ros2_ws/install/hardware_interface_testing/lib:/home/student/ros2_ws/install/controller_manager/lib:/home/student/ros2_ws/install/joint_limits/lib:/home/student/ros2_ws/install/controller_interface/lib:/home/student/ros2_ws/install/hardware_interface/lib:/home/student/ros2_ws/install/controller_manager_msgs/lib:/home/student/ros2_ws/src/install/transmission_interface/lib:/home/student/ros2_ws/src/install/hardware_interface_testing/lib:/home/student/ros2_ws/src/install/controller_manager/lib:/home/student/ros2_ws/src/install/joint_limits/lib:/home/student/ros2_ws/src/install/controller_interface/lib:/home/student/ros2_ws/src/install/hardware_interface/lib:/home/student/ros2_ws/src/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nb_NO.UTF-8', 'SYSTEMD_EXEC_PID': '1566', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student/ros2_ws/install:/home/student/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'student', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/student:@/tmp/.ICE-unix/1538,unix/student:/tmp/.ICE-unix/1538', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nb_NO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9beda83b_f6c8_44f8_b801_59de88046379', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y6N6A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/install/ros2_controllers_test_nodes:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/opcua_ros_client:/home/student/ros2_ws/install/my_py_pkg:/home/student/ros2_ws/install/my_bot_description:/home/student/ros2_ws/install/modbus_interface:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/opcua_ros_client:/home/student/ros2_ws/src/install/my_py_pkg:/home/student/ros2_ws/src/install/my_bot_description:/home/student/ros2_ws/src/install/modbus_interface:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/ros2_ws/build/modbus_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student/ros2_ws/build/modbus_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages:/home/student/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/student/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/student/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages:/home/student/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/student/ros2_ws/install/my_bot_description/lib/python3.10/site-packages:/home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages:/home/student/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/student/ros2_ws/src/install/opcua_ros_client/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/my_bot_description/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/modbus_interface/lib/python3.10/site-packages:/home/student/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/student/ros2_ws/install/ur_description:/home/student/ros2_ws/install/transmission_interface:/home/student/ros2_ws/install/hardware_interface_testing:/home/student/ros2_ws/install/controller_manager:/home/student/ros2_ws/install/ros2_control_test_assets:/home/student/ros2_ws/install/ros2_control_cmake:/home/student/ros2_ws/install/joint_limits:/home/student/ros2_ws/install/controller_interface:/home/student/ros2_ws/install/hardware_interface:/home/student/ros2_ws/install/controller_manager_msgs:/home/student/ros2_ws/src/install/ur_description:/home/student/ros2_ws/src/install/transmission_interface:/home/student/ros2_ws/src/install/hardware_interface_testing:/home/student/ros2_ws/src/install/controller_manager:/home/student/ros2_ws/src/install/ros2_control_test_assets:/home/student/ros2_ws/src/install/ros2_control_cmake:/home/student/ros2_ws/src/install/joint_limits:/home/student/ros2_ws/src/install/irb4400_description:/home/student/ros2_ws/src/install/controller_interface:/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/controller_manager_msgs'}, 'shell': False}
+[0.700896] (-) TimerEvent: {}
+[0.801142] (-) TimerEvent: {}
+[0.847947] (modbus_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.848711] (modbus_interface) StdoutLine: {'line': b'creating ../../build/modbus_interface/modbus_interface.egg-info\n'}
+[0.848973] (modbus_interface) StdoutLine: {'line': b'writing ../../build/modbus_interface/modbus_interface.egg-info/PKG-INFO\n'}
+[0.849245] (modbus_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/modbus_interface/modbus_interface.egg-info/dependency_links.txt\n'}
+[0.849431] (modbus_interface) StdoutLine: {'line': b'writing entry points to ../../build/modbus_interface/modbus_interface.egg-info/entry_points.txt\n'}
+[0.849691] (modbus_interface) StdoutLine: {'line': b'writing requirements to ../../build/modbus_interface/modbus_interface.egg-info/requires.txt\n'}
+[0.849801] (modbus_interface) StdoutLine: {'line': b'writing top-level names to ../../build/modbus_interface/modbus_interface.egg-info/top_level.txt\n'}
+[0.849996] (modbus_interface) StdoutLine: {'line': b"writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'\n"}
+[0.851903] (modbus_interface) StdoutLine: {'line': b"reading manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'\n"}
+[0.852577] (modbus_interface) StdoutLine: {'line': b"writing manifest file '../../build/modbus_interface/modbus_interface.egg-info/SOURCES.txt'\n"}
+[0.852752] (modbus_interface) StdoutLine: {'line': b'running build\n'}
+[0.852876] (modbus_interface) StdoutLine: {'line': b'running build_py\n'}
+[0.853186] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/build/modbus_interface/build\n'}
+[0.853315] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/build/modbus_interface/build/lib\n'}
+[0.853400] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface\n'}
+[0.853456] (modbus_interface) StdoutLine: {'line': b'copying modbus_interface/__init__.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface\n'}
+[0.853599] (modbus_interface) StdoutLine: {'line': b'copying modbus_interface/modbus_node.py -> /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface\n'}
+[0.858656] (modbus_interface) StdoutLine: {'line': b'running install\n'}
+[0.859057] (modbus_interface) StdoutLine: {'line': b'running install_lib\n'}
+[0.859781] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface\n'}
+[0.860001] (modbus_interface) StdoutLine: {'line': b'copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/__init__.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface\n'}
+[0.860179] (modbus_interface) StdoutLine: {'line': b'copying /home/student/ros2_ws/build/modbus_interface/build/lib/modbus_interface/modbus_node.py -> /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface\n'}
+[0.860627] (modbus_interface) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/__init__.py to __init__.cpython-310.pyc\n'}
+[0.860909] (modbus_interface) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface/modbus_node.py to modbus_node.cpython-310.pyc\n'}
+[0.861591] (modbus_interface) StdoutLine: {'line': b'running install_data\n'}
+[0.861888] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/install/modbus_interface/share/ament_index\n'}
+[0.862037] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index\n'}
+[0.862244] (modbus_interface) StdoutLine: {'line': b'creating /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages\n'}
+[0.862333] (modbus_interface) StdoutLine: {'line': b'copying resource/modbus_interface -> /home/student/ros2_ws/install/modbus_interface/share/ament_index/resource_index/packages\n'}
+[0.862416] (modbus_interface) StdoutLine: {'line': b'copying package.xml -> /home/student/ros2_ws/install/modbus_interface/share/modbus_interface\n'}
+[0.862517] (modbus_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.864002] (modbus_interface) StdoutLine: {'line': b'Copying ../../build/modbus_interface/modbus_interface.egg-info to /home/student/ros2_ws/install/modbus_interface/lib/python3.10/site-packages/modbus_interface-0.0.0-py3.10.egg-info\n'}
+[0.864839] (modbus_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[0.883294] (modbus_interface) StdoutLine: {'line': b'Installing modbus_connect_test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface\n'}
+[0.883550] (modbus_interface) StdoutLine: {'line': b'Installing modbus_node script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface\n'}
+[0.883698] (modbus_interface) StdoutLine: {'line': b'Installing test script to /home/student/ros2_ws/install/modbus_interface/lib/modbus_interface\n'}
+[0.883897] (modbus_interface) StdoutLine: {'line': b"writing list of installed files to '/home/student/ros2_ws/build/modbus_interface/install.log'\n"}
+[0.901244] (-) TimerEvent: {}
+[0.903200] (modbus_interface) CommandEnded: {'returncode': 0}
+[0.911422] (modbus_interface) JobEnded: {'identifier': 'modbus_interface', 'rc': 0}
+[0.911984] (-) EventReactorShutdown: {}

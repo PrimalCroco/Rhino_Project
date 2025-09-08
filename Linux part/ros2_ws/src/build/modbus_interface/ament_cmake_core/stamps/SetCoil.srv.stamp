@@ -1,0 +1,6 @@
+int32 address
+bool state
+---
+bool success
+string message
+

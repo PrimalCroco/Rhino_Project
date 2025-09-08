@@ -1,0 +1,55 @@
+[31mCMake Error at CMakeLists.txt:39 (add_library):
+  Target "diff_drive_controller" links to target
+  "controller_interface::controller_interface" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:39 (add_library):
+  Target "diff_drive_controller" links to target
+  "hardware_interface::hardware_interface" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Target "test_diff_drive_controller" links to target
+  "controller_interface::controller_interface" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:71 (ament_add_gmock)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Target "test_diff_drive_controller" links to target
+  "hardware_interface::hardware_interface" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:71 (ament_add_gmock)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Target "test_load_diff_drive_controller" links to target
+  "controller_manager::controller_manager" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:79 (ament_add_gmock)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:69 (add_executable):
+  Target "test_load_diff_drive_controller" links to target
+  "ros2_control_test_assets::ros2_control_test_assets" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:79 (ament_add_gmock)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

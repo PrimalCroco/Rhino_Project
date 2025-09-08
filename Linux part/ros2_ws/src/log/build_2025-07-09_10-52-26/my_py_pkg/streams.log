@@ -1,0 +1,20 @@
+[2.154s] Invoking command in '/home/student/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/student/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/student/ros2_ws/src/build/my_py_pkg/build install --record /home/student/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.951s] running egg_info
+[2.952s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.954s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.954s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.954s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.954s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.965s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.965s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.966s] running build
+[2.966s] running build_py
+[2.966s] running install
+[2.966s] running install_lib
+[2.971s] running install_data
+[2.972s] running install_egg_info
+[2.979s] removing '/home/student/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.980s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/student/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.984s] running install_scripts
+[3.047s] Installing hello_node script to /home/student/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.054s] writing list of installed files to '/home/student/ros2_ws/src/build/my_py_pkg/install.log'

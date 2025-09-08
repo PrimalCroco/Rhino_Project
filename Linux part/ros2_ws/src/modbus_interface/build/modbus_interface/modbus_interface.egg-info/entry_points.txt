@@ -1,0 +1,5 @@
+[console_scripts]
+modbus_connect_test = modbus_interface.modbus_connect_test:main
+modbus_node = modbus_interface.modbus_node:main
+test = modbus_interface.test:main
+

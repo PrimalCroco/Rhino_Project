@@ -1,0 +1,20 @@
+[2.139s] Invoking command in '/home/student/ros2_ws/src/opcua_ros_client': PYTHONPATH=/home/student/ros2_ws/src/build/opcua_ros_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/install/opcua_ros_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/opcua_ros_client build --build-base /home/student/ros2_ws/src/build/opcua_ros_client/build install --record /home/student/ros2_ws/src/build/opcua_ros_client/install.log --single-version-externally-managed install_data
+[3.024s] running egg_info
+[3.025s] writing ../build/opcua_ros_client/opcua_ros_client.egg-info/PKG-INFO
+[3.029s] writing dependency_links to ../build/opcua_ros_client/opcua_ros_client.egg-info/dependency_links.txt
+[3.029s] writing entry points to ../build/opcua_ros_client/opcua_ros_client.egg-info/entry_points.txt
+[3.030s] writing requirements to ../build/opcua_ros_client/opcua_ros_client.egg-info/requires.txt
+[3.030s] writing top-level names to ../build/opcua_ros_client/opcua_ros_client.egg-info/top_level.txt
+[3.042s] reading manifest file '../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[3.043s] writing manifest file '../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[3.049s] running build
+[3.050s] running build_py
+[3.050s] running install
+[3.050s] running install_lib
+[3.057s] running install_data
+[3.058s] running install_egg_info
+[3.072s] removing '/home/student/ros2_ws/src/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client-0.0.0-py3.10.egg-info' (and everything under it)
+[3.073s] Copying ../build/opcua_ros_client/opcua_ros_client.egg-info to /home/student/ros2_ws/src/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client-0.0.0-py3.10.egg-info
+[3.074s] running install_scripts
+[3.150s] Installing opcua_client_node script to /home/student/ros2_ws/src/install/opcua_ros_client/lib/opcua_ros_client
+[3.158s] writing list of installed files to '/home/student/ros2_ws/src/build/opcua_ros_client/install.log'

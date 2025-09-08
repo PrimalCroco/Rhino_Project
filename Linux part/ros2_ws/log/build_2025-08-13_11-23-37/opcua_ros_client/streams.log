@@ -1,0 +1,33 @@
+[2.097s] Invoking command in '/home/student/ros2_ws/src/opcua_ros_client': PYTHONPATH=/home/student/ros2_ws/build/opcua_ros_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opcua_ros_client build --build-base /home/student/ros2_ws/build/opcua_ros_client/build install --record /home/student/ros2_ws/build/opcua_ros_client/install.log --single-version-externally-managed install_data
+[2.689s] running egg_info
+[2.689s] creating ../../build/opcua_ros_client/opcua_ros_client.egg-info
+[2.690s] writing ../../build/opcua_ros_client/opcua_ros_client.egg-info/PKG-INFO
+[2.690s] writing dependency_links to ../../build/opcua_ros_client/opcua_ros_client.egg-info/dependency_links.txt
+[2.690s] writing entry points to ../../build/opcua_ros_client/opcua_ros_client.egg-info/entry_points.txt
+[2.690s] writing requirements to ../../build/opcua_ros_client/opcua_ros_client.egg-info/requires.txt
+[2.693s] writing top-level names to ../../build/opcua_ros_client/opcua_ros_client.egg-info/top_level.txt
+[2.693s] writing manifest file '../../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[2.693s] reading manifest file '../../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[2.693s] writing manifest file '../../build/opcua_ros_client/opcua_ros_client.egg-info/SOURCES.txt'
+[2.693s] running build
+[2.694s] running build_py
+[2.694s] creating /home/student/ros2_ws/build/opcua_ros_client/build
+[2.694s] creating /home/student/ros2_ws/build/opcua_ros_client/build/lib
+[2.694s] creating /home/student/ros2_ws/build/opcua_ros_client/build/lib/opcua_ros_client
+[2.694s] copying opcua_ros_client/__init__.py -> /home/student/ros2_ws/build/opcua_ros_client/build/lib/opcua_ros_client
+[2.694s] copying opcua_ros_client/opcua_client_node.py -> /home/student/ros2_ws/build/opcua_ros_client/build/lib/opcua_ros_client
+[2.694s] running install
+[2.694s] running install_lib
+[2.694s] creating /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client
+[2.694s] copying /home/student/ros2_ws/build/opcua_ros_client/build/lib/opcua_ros_client/__init__.py -> /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client
+[2.694s] copying /home/student/ros2_ws/build/opcua_ros_client/build/lib/opcua_ros_client/opcua_client_node.py -> /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client
+[2.695s] byte-compiling /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client/__init__.py to __init__.cpython-310.pyc
+[2.695s] byte-compiling /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client/opcua_client_node.py to opcua_client_node.cpython-310.pyc
+[2.697s] running install_data
+[2.697s] copying package.xml -> /home/student/ros2_ws/install/opcua_ros_client/share/opcua_ros_client
+[2.697s] running install_egg_info
+[2.700s] Copying ../../build/opcua_ros_client/opcua_ros_client.egg-info to /home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages/opcua_ros_client-0.0.0-py3.10.egg-info
+[2.709s] running install_scripts
+[2.768s] Installing opcua_client_node script to /home/student/ros2_ws/install/opcua_ros_client/lib/opcua_ros_client
+[2.768s] writing list of installed files to '/home/student/ros2_ws/build/opcua_ros_client/install.log'
+[2.817s] Invoked command in '/home/student/ros2_ws/src/opcua_ros_client' returned '0': PYTHONPATH=/home/student/ros2_ws/build/opcua_ros_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/opcua_ros_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opcua_ros_client build --build-base /home/student/ros2_ws/build/opcua_ros_client/build install --record /home/student/ros2_ws/build/opcua_ros_client/install.log --single-version-externally-managed install_data

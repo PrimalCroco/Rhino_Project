@@ -1,0 +1,32 @@
+running develop
+Removing /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10-moveit-control.egg-link (link to .)
+running egg_info
+writing ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/entry_points.txt
+writing requirements to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/requires.txt
+writing top-level names to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/top_level.txt
+reading manifest file '../../build/ur10_moveit_control/ur10_moveit_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur10_moveit_control/ur10_moveit_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/UR_Robot_ws/build/ur10_moveit_control/build
+creating /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib
+creating /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control
+copying ur10_moveit_control/__init__.py -> /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control
+copying ur10_moveit_control/goto_pose_ik.py -> /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control
+running install
+running install_lib
+creating /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+copying /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control/__init__.py -> /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+copying /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control/goto_pose_ik.py -> /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+byte-compiling /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control/goto_pose_ik.py to goto_pose_ik.cpython-310.pyc
+running install_data
+copying resource/ur10_moveit_control -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ur10_moveit_control
+running install_egg_info
+Copying ../../build/ur10_moveit_control/ur10_moveit_control.egg-info to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing goto_pose_ik script to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/ur10_moveit_control
+writing list of installed files to '/home/student/UR_Robot_ws/build/ur10_moveit_control/install.log'

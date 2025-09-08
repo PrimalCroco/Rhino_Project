@@ -1,0 +1,2 @@
+Invoking command in '/home/student/ros2_ws/src/modbus_interface/build/modbus_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/modbus_interface -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/modbus_interface/install/modbus_interface
+Invoked command in '/home/student/ros2_ws/src/modbus_interface/build/modbus_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/modbus_interface -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/modbus_interface/install/modbus_interface

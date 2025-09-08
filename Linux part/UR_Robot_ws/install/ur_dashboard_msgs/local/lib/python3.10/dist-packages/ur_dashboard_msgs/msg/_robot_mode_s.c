@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/build/ur_dashboard_msgs/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c

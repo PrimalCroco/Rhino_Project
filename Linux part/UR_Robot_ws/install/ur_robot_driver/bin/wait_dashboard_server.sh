@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur_robot_driver/scripts/wait_dashboard_server.sh

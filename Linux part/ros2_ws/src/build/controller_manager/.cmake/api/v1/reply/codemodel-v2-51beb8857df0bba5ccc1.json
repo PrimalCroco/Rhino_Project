@@ -1,0 +1,355 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b22e3cf6f832f0d8b4f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "controller_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_controller_manager_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_controller_manager_egg-7a4e8f51b30dca28c9ea.json",
+					"name" : "ament_cmake_python_build_controller_manager_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_controller_manager_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_controller_manager_scripts-631cdd375ed74b8be22a.json",
+					"name" : "ament_cmake_python_build_controller_manager_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_controller_manager-f93f5e13d886544a141b.json",
+					"name" : "ament_cmake_python_copy_controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_controller_manager_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_controller_manager_setup-19fb38d9398aa58a8d21.json",
+					"name" : "ament_cmake_python_copy_controller_manager_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__controller_manager-c90a3b39420e13c6914a.json",
+					"name" : "ament_generate_version_header__controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager-b6aa720affd613239d81.json",
+					"name" : "controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_uninstall-a949cfb08f881ea286ce.json",
+					"name" : "controller_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-53c2b5f563e5b32334a6.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-82c4a9303f8cda689070.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-61add2704e730c38c0bd.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-545afb10e01e7c65a6de.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_node-d0c2aeaf6a0c54993b64.json",
+					"name" : "ros2_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_chainable_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_chainable_controller-8547255bba7f8da4ec30.json",
+					"name" : "test_chainable_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller-f8c88f28b5454d1e5ded.json",
+					"name" : "test_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_failed_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_failed_init-60c9e751918a3b399653.json",
+					"name" : "test_controller_failed_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_manager-45d3a257597175e78e47.json",
+					"name" : "test_controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_manager_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_manager_srvs-034be0bdda680efc56e9.json",
+					"name" : "test_controller_manager_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_manager_urdf_passing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_manager_urdf_passing-f90544b16cdf10a10ef9.json",
+					"name" : "test_controller_manager_urdf_passing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_manager_with_namespace.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_manager_with_namespace.cpp-42e5ce3e4a48c06e7b56.json",
+					"name" : "test_controller_manager_with_namespace.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_with_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_with_interfaces-efb7bf2fc68f18cedb74.json",
+					"name" : "test_controller_with_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers_chaining_with_controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers_chaining_with_controller_manager-a3a177abd55160f3e71e.json",
+					"name" : "test_controllers_chaining_with_controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_hardware_management_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_hardware_management_srvs-e735f498b656c9cdc7cd.json",
+					"name" : "test_hardware_management_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_hardware_spawner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_hardware_spawner-ea9065351fe0bfa2cc5a.json",
+					"name" : "test_hardware_spawner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_load_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_load_controller-e24343e6c5573a64aba6.json",
+					"name" : "test_load_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_release_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_release_interfaces-3ded4c3b53394cbb5072.json",
+					"name" : "test_release_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_spawner_unspawner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_spawner_unspawner-d7647eed2c497096426c.json",
+					"name" : "test_spawner_unspawner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1b9204c2e99b493c5e36.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/ros2_ws/src/build/controller_manager",
+		"source" : "/home/student/ros2_ws/src/ros2_control/controller_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+hello_node = my_py_pkg.hello_node:main
+

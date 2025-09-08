@@ -1,0 +1,3 @@
+[console_scripts]
+opcua_client_node = opcua_ros_client.opcua_client_node:main
+

@@ -1,0 +1,32 @@
+[0.658s] Invoking command in '/home/student/UR_Robot_ws/build/ur10_moveit_control': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/student/UR_Robot_ws/build/ur10_moveit_control/build
+[0.929s] running develop
+[1.102s] Removing /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10-moveit-control.egg-link (link to .)
+[1.128s] Invoked command in '/home/student/UR_Robot_ws/build/ur10_moveit_control' returned '0': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/student/UR_Robot_ws/build/ur10_moveit_control/build
+[1.130s] Invoking command in '/home/student/UR_Robot_ws/src/ur10_moveit_control': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur10_moveit_control build --build-base /home/student/UR_Robot_ws/build/ur10_moveit_control/build install --record /home/student/UR_Robot_ws/build/ur10_moveit_control/install.log --single-version-externally-managed install_data --force
+[1.377s] running egg_info
+[1.378s] writing ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/PKG-INFO
+[1.378s] writing dependency_links to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/dependency_links.txt
+[1.378s] writing entry points to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/entry_points.txt
+[1.378s] writing requirements to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/requires.txt
+[1.378s] writing top-level names to ../../build/ur10_moveit_control/ur10_moveit_control.egg-info/top_level.txt
+[1.380s] reading manifest file '../../build/ur10_moveit_control/ur10_moveit_control.egg-info/SOURCES.txt'
+[1.381s] writing manifest file '../../build/ur10_moveit_control/ur10_moveit_control.egg-info/SOURCES.txt'
+[1.381s] running build
+[1.381s] running build_py
+[1.381s] copying ur10_moveit_control/goto_pose_ik.py -> /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control
+[1.381s] running install
+[1.381s] running install_lib
+[1.382s] creating /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+[1.382s] copying /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control/__init__.py -> /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+[1.382s] copying /home/student/UR_Robot_ws/build/ur10_moveit_control/build/lib/ur10_moveit_control/goto_pose_ik.py -> /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control
+[1.383s] byte-compiling /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control/__init__.py to __init__.cpython-310.pyc
+[1.383s] byte-compiling /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control/goto_pose_ik.py to goto_pose_ik.cpython-310.pyc
+[1.384s] running install_data
+[1.384s] copying resource/ur10_moveit_control -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ament_index/resource_index/packages
+[1.384s] copying package.xml -> /home/student/UR_Robot_ws/install/ur10_moveit_control/share/ur10_moveit_control
+[1.384s] running install_egg_info
+[1.386s] Copying ../../build/ur10_moveit_control/ur10_moveit_control.egg-info to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages/ur10_moveit_control-0.0.0-py3.10.egg-info
+[1.387s] running install_scripts
+[1.406s] Installing goto_pose_ik script to /home/student/UR_Robot_ws/install/ur10_moveit_control/lib/ur10_moveit_control
+[1.406s] writing list of installed files to '/home/student/UR_Robot_ws/build/ur10_moveit_control/install.log'
+[1.430s] Invoked command in '/home/student/UR_Robot_ws/src/ur10_moveit_control' returned '0': PYTHONPATH=/home/student/UR_Robot_ws/build/ur10_moveit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/UR_Robot_ws/install/ur10_moveit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur10_moveit_control build --build-base /home/student/UR_Robot_ws/build/ur10_moveit_control/build install --record /home/student/UR_Robot_ws/build/ur10_moveit_control/install.log --single-version-externally-managed install_data --force

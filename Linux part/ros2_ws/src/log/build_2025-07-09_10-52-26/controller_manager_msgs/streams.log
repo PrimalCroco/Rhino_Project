@@ -1,0 +1,141 @@
+[0.034s] Invoking command in '/home/student/ros2_ws/src/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/controller_manager_msgs -- -j8 -l8
+[1.162s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.163s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.163s] [  1%] Built target ament_cmake_python_copy_controller_manager_msgs
+[1.164s] running egg_info
+[1.164s] writing controller_manager_msgs.egg-info/PKG-INFO
+[1.164s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[1.164s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[1.165s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[1.165s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[1.165s] [  1%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[2.952s] [  1%] Built target controller_manager_msgs__cpp
+[2.983s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.986s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.994s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.446s] [  3%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[3.455s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__functions.c.o[0m
+[3.459s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__functions.c.o[0m
+[3.461s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o[0m
+[3.470s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o[0m
+[3.598s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[3.599s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[3.615s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__functions.c.o[0m
+[3.617s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o[0m
+[3.658s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[3.733s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[3.770s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c.o[0m
+[3.771s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[3.775s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[3.941s] [ 14%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[4.053s] [ 14%] Built target controller_manager_msgs__rosidl_generator_c
+[4.081s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.085s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.090s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.703s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[5.715s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[5.734s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[6.231s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[6.436s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[6.497s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o[0m
+[6.506s] [ 23%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[7.058s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[7.058s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[7.135s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[7.144s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[7.171s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:192: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o] Interrupt
+[7.171s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/build.make:218: CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o] Interrupt
+[7.172s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/build.make:190: CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o] Interrupt
+[7.172s] gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h'
+[7.173s] Traceback (most recent call last):
+[7.173s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+[7.173s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:466: CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+[7.173s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[7.174s]     sys.exit(main())
+[7.174s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+[7.174s]     generate_typesupport_fastrtps_c(args.generator_arguments_file)
+[7.175s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+[7.175s] gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[7.175s]     return generate_files(generator_arguments_file, mapping)
+[7.175s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.175s]     expand_template(
+[7.175s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.175s]     interpreter.string(template_content, template_path, locals=data)
+[7.175s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.175s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c'
+[7.176s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/build.make:153: rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c] Interrupt
+[7.176s] gmake[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[7.176s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/build.make:176: CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o] Interrupt
+[7.177s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[7.177s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:206: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o] Interrupt
+[7.177s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[7.177s]     self.safe(scanner, True, locals)
+[7.177s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.178s]     self.parse(scanner, locals)
+[7.178s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.178s]     token.run(self, locals)
+[7.179s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.179s]     self.subrun(info[0][1], interpreter, locals)
+[7.179s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.179s]     token.run(interpreter, locals)
+[7.179s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.180s]     interpreter.execute(self.code, locals)
+[7.180s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.180s]     _exec(statements, self.globals, locals)
+[7.180s]   File "<string>", line 2, in <module>
+[7.180s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.180s]     interpreter.string(content, str(template_path), kwargs)
+[7.180s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.181s]     self.safe(scanner, True, locals)
+[7.181s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.181s]     self.parse(scanner, locals)
+[7.181s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.181s]     token.run(self, locals)
+[7.182s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.182s]     interpreter.execute(self.code, locals)
+[7.182s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.182s]     _exec(statements, self.globals, locals)
+[7.182s]   File "<string>", line 2, in <module>
+[7.182s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.182s]     interpreter.string(content, str(template_path), kwargs)
+[7.182s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.182s]     self.safe(scanner, True, locals)
+[7.183s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.183s]     self.parse(scanner, locals)
+[7.183s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[7.183s]     token = scanner.one()
+[7.183s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.183s]     token.scan(self)
+[7.183s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[7.183s]     self.subscan(scanner, self.type)
+[7.183s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[7.184s]     token = scanner.one()
+[7.184s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.184s]     token.scan(self)
+[7.184s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[7.184s]     self.subscan(scanner, self.type)
+[7.184s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[7.184s]     token = scanner.one()
+[7.185s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.185s]     token.scan(self)
+[7.185s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[7.185s]     self.subscan(scanner, self.type)
+[7.185s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[7.185s]     token = scanner.one()
+[7.185s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.186s]     token.scan(self)
+[7.186s]   File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+[7.186s]     i = scanner.complex('{', '}', 0)
+[7.186s]   File "/usr/lib/python3/dist-packages/em.py", line 1903, in complex
+[7.187s]     if c == '\\':
+[7.187s] KeyboardInterrupt
+[7.198s] Exception ignored in: <function Interpreter.__del__ at 0x7a58bb52bc70>
+[7.198s] Traceback (most recent call last):
+[7.198s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[7.198s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[7.198s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[7.198s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[7.198s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[7.204s] gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:105: rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h] Interrupt
+[7.204s] gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[7.204s] gmake: *** [Makefile:146: all] Interrupt

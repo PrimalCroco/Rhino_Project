@@ -1,0 +1,123 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/transmission_interface
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.345s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.662s] -- Found hardware_interface: 2.51.0 (/home/student/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.729s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.742s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.131s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.172s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.229s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.234s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.254s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.259s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.271s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.298s] -- Looking for pthread.h
+[1.371s] -- Looking for pthread.h - found
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.456s] -- Found Threads: TRUE  
+[1.571s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.573s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.586s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.586s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.771s] -- Configuring done
+[2.328s] -- Generating done
+[2.462s] -- Build files have been written to: /home/student/ros2_ws/src/build/transmission_interface
+[2.546s] Invoked command in '/home/student/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/student/ros2_ws/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/transmission_interface
+[2.546s] Invoking command in '/home/student/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/student/ros2_ws/src/build/transmission_interface -- -j8 -l8
+[2.679s] [  4%] [34m[1mGenerating transmission_interface/version.h[0m
+[2.680s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.682s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.698s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.746s] [ 16%] Built target ament_generate_version_header__transmission_interface
+[2.818s] [ 20%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[2.824s] [ 29%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[2.831s] [ 29%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[6.729s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.813s] [ 33%] Built target gmock_main
+[11.128s] [ 37%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.230s] [ 37%] Built target gmock
+[11.285s] [ 41%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[11.290s] [ 45%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[11.297s] [ 50%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[11.301s] [ 54%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[11.309s] [ 58%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[11.555s] [ 62%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[12.401s] [ 66%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[12.459s] [ 70%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[12.726s] [ 70%] Built target transmission_interface
+[15.060s] [ 75%] [32m[1mLinking CXX executable test_utils[0m
+[15.649s] [ 75%] Built target test_utils
+[19.631s] [ 79%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[19.990s] [ 83%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[20.217s] [ 87%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[20.667s] [ 87%] Built target test_differential_transmission
+[20.820s] [ 87%] Built target test_simple_transmission
+[21.091s] [ 87%] Built target test_four_bar_linkage_transmission
+[22.813s] [ 91%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[22.977s] [ 95%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[23.387s] [ 95%] Built target test_simple_transmission_loader
+[23.506s] [ 95%] Built target test_four_bar_linkage_transmission_loader
+[23.665s] [100%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[24.116s] [100%] Built target test_differential_transmission_loader
+[24.126s] Invoked command in '/home/student/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/student/ros2_ws/src/build/transmission_interface -- -j8 -l8
+[24.128s] Invoking command in '/home/student/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/student/ros2_ws/src/build/transmission_interface
+[24.134s] -- Install configuration: ""
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission.hpp
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/visibility_control.h
+[24.135s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/exception.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/handle.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/accessor.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[24.136s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/lib/libtransmission_interface.so
+[24.137s] -- Set runtime path of "/home/student/ros2_ws/src/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[24.137s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[24.137s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/path.sh
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[24.138s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.bash
+[24.139s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.sh
+[24.139s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[24.139s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[24.139s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/package.dsv
+[24.142s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[24.142s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[24.143s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/share/transmission_interface/package.xml
+[24.144s] -- Installing: /home/student/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission_interface/version.h
+[24.145s] Invoked command in '/home/student/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/hardware_interface:/home/student/ros2_ws/src/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/student/ros2_ws/src/build/transmission_interface

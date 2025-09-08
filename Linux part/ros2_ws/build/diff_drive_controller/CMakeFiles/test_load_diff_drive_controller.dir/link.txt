@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so -Wl,--as-needed  CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o -o test_load_diff_drive_controller  gmock/libgmock_main.a gmock/libgmock.a -lcontroller_manager::controller_manager -lros2_control_test_assets::ros2_control_test_assets -pthread 

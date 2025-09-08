@@ -1,0 +1,1 @@
+/home/student/UR_Robot_ws/src/ur_robot_driver/launch/ur10e.launch.py
