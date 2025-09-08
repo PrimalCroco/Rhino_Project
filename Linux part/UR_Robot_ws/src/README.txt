@@ -4,6 +4,7 @@ The inverse kinematics configuration is specified in ur_moveit_config/srdf/ur_ma
 Additional configuration files include joint limits, physical parameters, and MoveIt planning settings.
 This setup allows launching the robot in RViz, running controllers, using MoveIt for planning, and testing trajectories through provided scripts.
 
+The myfiles file contains all trajectory codes (tests and actual codes). The final code to run for the spiral trajectory is runme_trajectory.py
 
 
 In order to launch the spiral researching mode of the UR10 (UR10 as an example but it works with the others) :
